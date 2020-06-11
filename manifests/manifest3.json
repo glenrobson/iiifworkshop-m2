@@ -45,12 +45,12 @@
 							"@type": "oa:Annotation",
 							"motivation": "sc:painting",
 							"resource": {
-								"@id": "https://iiif.archivelab.org/iiif/draftofconstitution4draftofconstitutionforstpaulschurch1$draftofconstitution4.jpg/full/full/0/default.jpg",
+								"@id": "https://iiif.archivelab.org/iiif/draftofconstitution4draftofconstitutionforstpaulschurch1$draftofconstitution1.jpg/full/full/0/default.jpg",
 								"@type": "dctypes:Image",
 								"format": "image/jpeg",
 								"service": {
 									"@context": "http://iiif.io/api/image/2/context.json",
-									"@id": "https://iiif.archivelab.org/iiif/draftofconstitution4draftofconstitutionforstpaulschurch1$draftofconstitution4.jpg",
+									"@id": "https://iiif.archivelab.org/iiif/draftofconstitution4draftofconstitutionforstpaulschurch1$draftofconstitution1.jpg",
 									"profile": [
 										"http://iiif.io/api/image/2/level2.json"
 									]
