@@ -1,0 +1,79 @@
+{
+       "@context":"http://iiif.io/api/presentation/2/context.json",
+       "@id":"http://localhost:8887/annotations1.json",
+       "@type":"sc:AnnotationList",
+       "resources":
+[ {
+  "@id" : "http://35.177.224.176:8888/annotation/1591915936739",
+  "@type" : "oa:Annotation",
+  "dcterms:created" : "2020-06-11T22:52:16",
+  "resource" : [ {
+    "@id" : "_:b2",
+    "@type" : "dctypes:Text",
+    "http://dev.llgc.org.uk/sas/full_text" : "<pre style=\"font-family: monospace, serif; font-size: 0.9em; caret-color: #000000; text-size-adjust: auto; overflow: auto;\">First Draughtof the Constitutionsof Saint Paul'sChurch",
+    "format" : "text/html",
+    "chars" : "<pre style=\"font-family: monospace, serif; font-size: 0.9em; caret-color: #000000; text-size-adjust: auto; overflow: auto;\">First Draught<br />of the Constitutions<br />of Saint Paul's<br />Church</pre>"
+  } ],
+  "on" : [ {
+    "@id" : "_:b0",
+    "@type" : "oa:SpecificResource",
+    "within" : {
+      "@id" : "http://5a6bbdd4-14a7-41f2-a7d2-8dc076201b83",
+      "@type" : "sc:Manifest"
+    },
+    "selector" : {
+      "@id" : "_:b1",
+      "@type" : "oa:Choice",
+      "default" : {
+        "@id" : "_:b3",
+        "@type" : "oa:FragmentSelector",
+        "value" : "xywh=32,2079,585,571"
+      },
+      "item" : {
+        "@id" : "_:b4",
+        "@type" : "oa:SvgSelector",
+        "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M31.76744,2079.11628h292.58497v0h292.58497v285.43828v285.43828h-292.58497h-292.58497v-285.43828z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_7e26b708-081f-405a-9a24-bba3b4f330eb\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+      }
+    },
+    "full" : "http://2d3955f4-cf70-4ef1-9f21-2a256faf9007"
+  } ],
+  "motivation" : [ "oa:commenting" ],
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}, {
+  "@id" : "http://35.177.224.176:8888/annotation/1591915950075",
+  "@type" : "oa:Annotation",
+  "dcterms:created" : "2020-06-11T22:52:30",
+  "resource" : [ {
+    "@id" : "_:b2",
+    "@type" : "dctypes:Text",
+    "http://dev.llgc.org.uk/sas/full_text" : "<pre style=\"font-family: monospace, serif; font-size: 0.9em; caret-color: #000000; text-size-adjust: auto; overflow: auto;\">Names of the persons appointed to receive the ContributionsThomas Leech         Jno BayntonDaniel RobesdeauEphaeim Bonham       Thomas CampbellJohn Ord             Andrew DozPlunket Fleeson      Wm ShuteWalter Goodman       John RossThomas Charlton      James BenezotJohn Palmer",
+    "format" : "text/html",
+    "chars" : "<pre style=\"font-family: monospace, serif; font-size: 0.9em; caret-color: #000000; text-size-adjust: auto; overflow: auto;\">Names of the persons appointed to receive the Contributions<br /><br />Thomas Leech         Jno Baynton<br />Daniel Robesdeau<br />Ephaeim Bonham       Thomas Campbell<br />John Ord             Andrew Doz<br />Plunket Fleeson      Wm Shute<br />Walter Goodman       John Ross<br />Thomas Charlton      James Benezot<br />John Palmer</pre>"
+  } ],
+  "on" : [ {
+    "@id" : "_:b0",
+    "@type" : "oa:SpecificResource",
+    "within" : {
+      "@id" : "http://5a6bbdd4-14a7-41f2-a7d2-8dc076201b83",
+      "@type" : "sc:Manifest"
+    },
+    "selector" : {
+      "@id" : "_:b1",
+      "@type" : "oa:Choice",
+      "default" : {
+        "@id" : "_:b3",
+        "@type" : "oa:FragmentSelector",
+        "value" : "xywh=588,71,1316,758"
+      },
+      "item" : {
+        "@id" : "_:b4",
+        "@type" : "oa:SvgSelector",
+        "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1904.20036,829.87478h-657.92487v0h-657.92487v-379.20394v-379.20394h657.92487h657.92487v379.20394z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_35befaa7-60f4-46d5-b46e-ebdfb2a6217f\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+      }
+    },
+    "full" : "http://2d3955f4-cf70-4ef1-9f21-2a256faf9007"
+  } ],
+  "motivation" : [ "oa:commenting" ],
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+} ]
+}

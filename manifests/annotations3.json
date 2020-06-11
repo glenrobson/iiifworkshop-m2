@@ -1,0 +1,79 @@
+{
+       "@context":"http://iiif.io/api/presentation/2/context.json",
+       "@id":"http://localhost:8887/annotations1.json",
+       "@type":"sc:AnnotationList",
+       "resources":
+[ {
+  "@id" : "http://35.177.224.176:8888/annotation/1591916327212",
+  "@type" : "oa:Annotation",
+  "dcterms:created" : "2020-06-11T22:58:47",
+  "resource" : [ {
+    "@id" : "_:b2",
+    "@type" : "dctypes:Text",
+    "http://dev.llgc.org.uk/sas/full_text" : "<pre style=\"font-family: monospace, serif; font-size: 0.9em; caret-color: #000000; text-size-adjust: auto; overflow: auto;\"> 3     SecondlyThat the said lot of ground is to be purchased or taken onGround Rent, together with the House thereon to be erected asaforesaid shall be conveyed to, and vested in Twelve such personsas the said Subscribers and Contributors professing Membersof the Church of England or a Majority of them shall by way of Ballot nominate, Constitute andappoint in trust nevertheless that they and the Survivors andand Survivor of them and the Heirs and Assigns of such SurvivorShall and will at all Times hereafter at the reasonableRequest, cost charge of the Congregation of the said Church or of a Majority of them signified in writing under the Handsof the Vestry for the Time being, grant and convey the Janeto such Person as shall be appointed and Constituted forthat purpose, by the said Majority and by way of Ballot as aforesaid at any annual Electionfor choosing and Electing the officers of the Church, In Trustnevertheless for the same uses intents and purposes and forthe better supporting Maintaining and Preserving the UsesIntents and Purposes aforesaid, so as the foresaid Trustees be wellsufficiently Indemnifyed from Payment of any Annuity or Arrears thereofthat they may Covenant to pay for the Lott taken up, upon their asigning overtheir Trust on the request aforesaid.       Thirdly",
+    "format" : "text/html",
+    "chars" : "<pre style=\"font-family: monospace, serif; font-size: 0.9em; caret-color: #000000; text-size-adjust: auto; overflow: auto;\"> 3<br />     Secondly<br />That the said lot of ground is to be purchased or taken on<br />Ground Rent, together with the House thereon to be erected as<br />aforesaid shall be conveyed to, and vested in Twelve such persons<br />as the said Subscribers and Contributors professing Members<br />of the Church of England or a Majority of them shall by way of Ballot nominate, Constitute and<br />appoint in trust nevertheless that they and the Survivors and<br />and Survivor of them and the Heirs and Assigns of such Survivor<br />Shall and will at all Times hereafter at the reasonable<br />Request, cost charge of the Congregation of the said Church <br />or of a Majority of them signified in writing under the Hands<br />of the Vestry for the Time being, grant and convey the Jane<br />to such Person as shall be appointed and Constituted for<br />that purpose, by the said Majority and by way of Ballot as aforesaid at any annual Election<br />for choosing and Electing the officers of the Church, In Trust<br />nevertheless for the same uses intents and purposes and for<br />the better supporting Maintaining and Preserving the Uses<br />Intents and Purposes aforesaid, so as the foresaid Trustees be well<br />sufficiently Indemnifyed from Payment of any Annuity or Arrears thereof<br />that they may Covenant to pay for the Lott taken up, upon their asigning over<br />their Trust on the request aforesaid.<br /><br />       Thirdly</pre>"
+  } ],
+  "on" : [ {
+    "@id" : "_:b0",
+    "@type" : "oa:SpecificResource",
+    "within" : {
+      "@id" : "http://5a6bbdd4-14a7-41f2-a7d2-8dc076201b83",
+      "@type" : "sc:Manifest"
+    },
+    "selector" : {
+      "@id" : "_:b1",
+      "@type" : "oa:Choice",
+      "default" : {
+        "@id" : "_:b4",
+        "@type" : "oa:FragmentSelector",
+        "value" : "xywh=278,16,1695,1744"
+      },
+      "item" : {
+        "@id" : "_:b3",
+        "@type" : "oa:SvgSelector",
+        "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M278.45455,16.37137h847.61412v0h847.61412v872.10928v872.10928h-847.61412h-847.61412v-872.10928z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_d63be10e-3b82-4185-b3ab-a0f44a75ae8c\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+      }
+    },
+    "full" : "http://3d481993-98ad-4a1c-95e3-81efd0f057ac"
+  } ],
+  "motivation" : [ "oa:commenting" ],
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}, {
+  "@id" : "http://35.177.224.176:8888/annotation/1591916347603",
+  "@type" : "oa:Annotation",
+  "dcterms:created" : "2020-06-11T22:59:07",
+  "resource" : [ {
+    "@id" : "_:b2",
+    "@type" : "dctypes:Text",
+    "http://dev.llgc.org.uk/sas/full_text" : "<pre style=\"font-family: monospace, serif; font-size: 0.9em; caret-color: #000000; text-size-adjust: auto; overflow: auto;\">That the said Revd. Wm. Macclenachan shall be, and hereby isnominated, Constituted and appointed the minister of the saidChurch, during his good Behaviour &amp; Moral life, and that upon the Decease,Incapacity or Removal of the said Revd. Wm. Macclenachan orany other Minister hereafter to be appointed or any of hisor their Successors a Successor shall be appointed only during good Behaviour &amp; moral life by way of Ballot and not otherwise by the said Congregation or a Majorityof them which Congregation shall be and are hereby declared to be such only as are professing Members of the Church of England andContributors to the Support and Maintainance of the saidChurch and its Minister and Ministers and having and paying for a Sitting in the said Church and of full Age <span style=\"text-decoration: line-through;\">a Successor shall be<span style=\"text-decoration: line-through;\">appointed by way of Ballot only during good Behaviour and no other by the Congregation<span style=\"text-decoration: line-through;\">aforesaid or a Majority of them, and that an Assistant orAssistants to the Revd. Wm. Macclenachan or to any of his Successorsin the said Church shall and may be elected and                                          Chosen",
+    "format" : "text/html",
+    "chars" : "<pre style=\"font-family: monospace, serif; font-size: 0.9em; caret-color: #000000; text-size-adjust: auto; overflow: auto;\">That the said Revd. Wm. Macclenachan shall be, and hereby is<br />nominated, Constituted and appointed the minister of the said<br />Church, during his good Behaviour &amp; Moral life, and that upon the Decease,<br />Incapacity or Removal of the said Revd. Wm. Macclenachan or<br />any other Minister hereafter to be appointed or any of his<br />or their Successors a Successor shall be appointed only during good Behaviour &amp; moral life by way of Ballot and not otherwise by the said Congregation or a Majority<br />of them which Congregation shall be and are hereby declared to be such only as are professing Members of the Church of England and<br />Contributors to the Support and Maintainance of the said<br />Church and its Minister and Ministers and having and paying for a Sitting in the said Church and of full Age <span style=\"text-decoration: line-through;\">a Successor shall be</span><br /><span style=\"text-decoration: line-through;\">appointed by way of Ballot only during good Behaviour and no other by the Congregation</span><br /><span style=\"text-decoration: line-through;\">aforesaid or a Majority of them,</span> and that an Assistant or<br />Assistants to the Revd. Wm. Macclenachan or to any of his Successors<br />in the said Church shall and may be elected and<br />                                          Chosen</pre>"
+  } ],
+  "on" : [ {
+    "@id" : "_:b0",
+    "@type" : "oa:SpecificResource",
+    "within" : {
+      "@id" : "http://5a6bbdd4-14a7-41f2-a7d2-8dc076201b83",
+      "@type" : "sc:Manifest"
+    },
+    "selector" : {
+      "@id" : "_:b1",
+      "@type" : "oa:Choice",
+      "default" : {
+        "@id" : "_:b4",
+        "@type" : "oa:FragmentSelector",
+        "value" : "xywh=266,1771,1707,1270"
+      },
+      "item" : {
+        "@id" : "_:b3",
+        "@type" : "oa:SvgSelector",
+        "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M266.20696,1770.83752h853.73791v0h853.73791v634.81238v634.81238h-853.73791h-853.73791v-634.81238z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_f1587a31-0976-48e3-a092-2ef96fcf2b02\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+      }
+    },
+    "full" : "http://3d481993-98ad-4a1c-95e3-81efd0f057ac"
+  } ],
+  "motivation" : [ "oa:commenting" ],
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+} ]
+}

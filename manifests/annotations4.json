@@ -1,0 +1,79 @@
+{
+       "@context":"http://iiif.io/api/presentation/2/context.json",
+       "@id":"http://localhost:8887/annotations1.json",
+       "@type":"sc:AnnotationList",
+       "resources":
+[ {
+  "@id" : "http://35.177.224.176:8888/annotation/1591916372925",
+  "@type" : "oa:Annotation",
+  "dcterms:created" : "2020-06-11T22:59:32",
+  "resource" : [ {
+    "@id" : "_:b2",
+    "@type" : "dctypes:Text",
+    "http://dev.llgc.org.uk/sas/full_text" : "<pre style=\"font-family: monospace, serif; font-size: 0.9em; caret-color: #000000; text-size-adjust: auto; overflow: auto;\">(4)Chosen in the Same Manner <span style=\"text-decoration: line-through;\">during the same ? and by the Same Persons asoften as there shall be Occasion, and in no other Manner andby no other Persons whatsoever and shall hold the said Office of Assistant during good Behaviour. Provided such Ministeror Assistant shall have first obtained the Orders of a Priest of the Established Church of England and be dulyOrdained by a Bishop of the said Church in Great Britainor Ireland and shall by the Congregation or a majority of them, be adjudged soundin his Principles according to the plain literal and Gramatical sense of the Thirty nine Articles of the saidChurch, of a Moral and Religious life and Conversationand well acquainted with Vital and Experimental Piety.",
+    "format" : "text/html",
+    "chars" : "<pre style=\"font-family: monospace, serif; font-size: 0.9em; caret-color: #000000; text-size-adjust: auto; overflow: auto;\">(4)<br /><br />Chosen in the Same Manner <span style=\"text-decoration: line-through;\">during the same ?</span> and by the Same Persons as<br />often as there shall be Occasion, and in no other Manner and<br />by no other Persons whatsoever and shall hold the said Office of Assistant during good Behaviour. Provided such Minister<br />or Assistant shall have first obtained the Orders of a <br />Priest of the Established Church of England and be duly<br />Ordained by a Bishop of the said Church in Great Britain<br />or Ireland and shall by the Congregation or a majority of them, be adjudged sound<br />in his Principles according to the plain literal and <br />Gramatical sense of the Thirty nine Articles of the said<br />Church, of a Moral and Religious life and Conversation<br />and well acquainted with Vital and Experimental Piety.</pre>"
+  } ],
+  "on" : [ {
+    "@id" : "_:b0",
+    "@type" : "oa:SpecificResource",
+    "within" : {
+      "@id" : "http://5a6bbdd4-14a7-41f2-a7d2-8dc076201b83",
+      "@type" : "sc:Manifest"
+    },
+    "selector" : {
+      "@id" : "_:b1",
+      "@type" : "oa:Choice",
+      "default" : {
+        "@id" : "_:b3",
+        "@type" : "oa:FragmentSelector",
+        "value" : "xywh=287,44,1670,1025"
+      },
+      "item" : {
+        "@id" : "_:b4",
+        "@type" : "oa:SvgSelector",
+        "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M287.09091,44.36364h834.81818v0h834.81818v512.54545v512.54545h-834.81818h-834.81818v-512.54545z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_125c2aa7-fbb5-42c4-bf68-b14050c7368a\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+      }
+    },
+    "full" : "http://49082c4c-8bbb-47ef-b95b-b0c7e43b35c6"
+  } ],
+  "motivation" : [ "oa:commenting" ],
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}, {
+  "@id" : "http://35.177.224.176:8888/annotation/1591916398069",
+  "@type" : "oa:Annotation",
+  "dcterms:created" : "2020-06-11T22:59:58",
+  "resource" : [ {
+    "@id" : "_:b2",
+    "@type" : "dctypes:Text",
+    "http://dev.llgc.org.uk/sas/full_text" : "<pre style=\"font-family: monospace, serif; font-size: 0.9em; caret-color: #000000; text-size-adjust: auto; overflow: auto;\">FourthlyThat for the better Management and Oeconomy of the Revenuesof the Church and for the repairing and preserving theChurch, Church Yard and Burial Ground from decay,There shall be elected and chosen at or in the saidChurch by way of Ballot, and in no other way whatsoever,under the Direction of the former Vestry on Easter Mondayin every Year a new Vestry consisting of 20 <span style=\"text-decoration: line-through;\">of sober Reputable and ReligiousPersons of the Congregation, who shall Superintend takeCare of and repair the said Church, Church Yard and BuryingGround and do and perform all and every other thing thereunto appertainingand shall hire or Rent out the Pews, Collected and Receivethe Pew Money and all <span style=\"text-decoration: line-through;\">other the other Revenues or Incomes ofthe said Church, and from Time to Time appropriate and dispose thereof in such Manner as shall be directed andenjoined them by the Congregation, or a Majority of them bytheir Vote in Manner aforesaid at their general Election on Easter Monday aforesaid in every Year and in no otherManner whatsoever unless it be in the Repairs aforesaidto be performed by the Vestry when and as often as they shallsee Occasion, without such Vote; and that there shall be two ChurchWardens chosen and elected by Ballot on the same day by and out of the Vestry aforesaid for the timebeing <span style=\"text-decoration: line-through;\">who are to be subject to the Vestry who shall be and arehereby made subject to the Orders and Directions of the Vestry and shall have no other orfurther Power and Authority than is hereby given and grantedunto the Vestry.",
+    "format" : "text/html",
+    "chars" : "<pre style=\"font-family: monospace, serif; font-size: 0.9em; caret-color: #000000; text-size-adjust: auto; overflow: auto;\">Fourthly<br /><br />That for the better Management and Oeconomy of the Revenues<br />of the Church and for the repairing and preserving the<br />Church, Church Yard and Burial Ground from decay,<br />There shall be elected and chosen at or in the said<br />Church by way of Ballot, and in no other way whatsoever,<br />under the Direction of the former Vestry on Easter Monday<br />in every Year a new Vestry consisting of 20 <span style=\"text-decoration: line-through;\">of</span> sober Reputable and Religious<br />Persons of the Congregation, who shall Superintend take<br />Care of and repair the said Church, Church Yard and Burying<br />Ground and do and perform all and every other thing thereunto appertaining<br />and shall hire or Rent out the Pews, Collected and Receive<br />the Pew Money and all <span style=\"text-decoration: line-through;\">other</span> the other Revenues or Incomes of<br />the said Church, and from Time to Time appropriate and <br />dispose thereof in such Manner as shall be directed and<br />enjoined them by the Congregation, or a Majority of them by<br />their Vote in Manner aforesaid at their general Election on <br />Easter Monday aforesaid in every Year and in no other<br />Manner whatsoever unless it be in the Repairs aforesaid<br />to be performed by the Vestry when and as often as they shall<br />see Occasion, without such Vote; and that there shall be two Church<br />Wardens chosen and elected by Ballot on the same day by and out of the Vestry aforesaid for the time<br />being <span style=\"text-decoration: line-through;\">who are to be subject to the Vestry</span> who shall be and are<br />hereby made subject to the <br />Orders and Directions of the <br />Vestry and shall have no other or<br />further Power and Authority than is hereby given and granted<br />unto the Vestry.</pre>"
+  } ],
+  "on" : [ {
+    "@id" : "_:b0",
+    "@type" : "oa:SpecificResource",
+    "within" : {
+      "@id" : "http://5a6bbdd4-14a7-41f2-a7d2-8dc076201b83",
+      "@type" : "sc:Manifest"
+    },
+    "selector" : {
+      "@id" : "_:b1",
+      "@type" : "oa:Choice",
+      "default" : {
+        "@id" : "_:b3",
+        "@type" : "oa:FragmentSelector",
+        "value" : "xywh=61,1098,1914,2082"
+      },
+      "item" : {
+        "@id" : "_:b4",
+        "@type" : "oa:SvgSelector",
+        "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M61.45455,1098.36364h956.90909v0h956.90909v1041.09091v1041.09091h-956.90909h-956.90909v-1041.09091z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_2ebe203e-81be-4d89-99be-685a620e8207\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+      }
+    },
+    "full" : "http://49082c4c-8bbb-47ef-b95b-b0c7e43b35c6"
+  } ],
+  "motivation" : [ "oa:commenting" ],
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+} ]
+}

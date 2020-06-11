@@ -1,0 +1,80 @@
+{
+       "@context":"http://iiif.io/api/presentation/2/context.json",
+       "@id":"http://localhost:8887/annotations1.json",
+       "@type":"sc:AnnotationList",
+       "resources":
+[ {
+  "@id" : "http://35.177.224.176:8888/annotation/1591916186402",
+  "@type" : "oa:Annotation",
+  "dcterms:created" : "2020-06-11T22:56:26",
+  "resource" : [ {
+    "@id" : "_:b2",
+    "@type" : "dctypes:Text",
+    "http://dev.llgc.org.uk/sas/full_text" : "<pre style=\"font-family: monospace, serif; font-size: 0.9em; caret-color: #000000; text-size-adjust: auto; overflow: auto;\">FirstThat the Sums of Money already subscribed or contributed asaforesaid, or that shall hereinafter be Subscribed or Contributed forthe Same Purpose shall be laid out and expended in purchasingor taking on Ground Rent a Convenient Lot of Groundwithin the City of Philada. and in building erecting and[completely?] finishing thereon a large commodious House, whichShall be used and employ'd as a House of Publick Worshipforever, in which Shall be read and performed and taught theLiturgy Rites Ceremonies Doctrines and true Principlesof the Established Church of England, according to the plain literal and Gramatical Sense of the Thirty nineArticles of the said Church and no other whatsoever. Whichsaid House, when erected shall be and is hereby nominated andcalled St. Paul's Church.",
+    "format" : "text/html",
+    "chars" : "<pre style=\"font-family: monospace, serif; font-size: 0.9em; caret-color: #000000; text-size-adjust: auto; overflow: auto;\">First<br /><br />That the Sums of Money already subscribed or contributed as<br />aforesaid, or that shall hereinafter be Subscribed or Contributed for<br />the Same Purpose shall be laid out and expended in purchasing<br />or taking on Ground Rent a Convenient Lot of Ground<br />within the City of Philada. and in building erecting and<br />[completely?] finishing thereon a large commodious House, which<br />Shall be used and employ'd as a House of Publick Worship<br />forever, in which Shall be read and performed and taught the<br />Liturgy Rites Ceremonies Doctrines and true Principles<br />of the Established Church of England, according to the plain literal and Gramatical Sense of the Thirty nine<br />Articles of the said Church and no other whatsoever. Which<br />said House, when erected shall be and is hereby nominated and<br />called St. Paul's Church.</pre>"
+  } ],
+  "on" : [ {
+    "@id" : "_:b0",
+    "@type" : "oa:SpecificResource",
+    "within" : {
+      "@id" : "http://5a6bbdd4-14a7-41f2-a7d2-8dc076201b83",
+      "@type" : "sc:Manifest"
+    },
+    "selector" : {
+      "@id" : "_:b1",
+      "@type" : "oa:Choice",
+      "default" : {
+        "@id" : "_:b3",
+        "@type" : "oa:FragmentSelector",
+        "value" : "xywh=294,1864,1643,1256"
+      },
+      "item" : {
+        "@id" : "_:b4",
+        "@type" : "oa:SvgSelector",
+        "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M294.49178,1863.57087h821.29615v0h821.29615v628.03994v628.03994h-821.29615h-821.29615v-628.03994z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_329d03e8-12eb-410e-a776-02df32ad5ffc\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+      }
+    },
+    "full" : "http://64263645-6f07-4055-a854-dcf0681e936b"
+  } ],
+  "motivation" : [ "oa:commenting" ],
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}, {
+  "@id" : "http://35.177.224.176:8888/annotation/1591916033668",
+  "@type" : "oa:Annotation",
+  "dcterms:created" : "2020-06-11T22:53:53",
+  "dcterms:modified" : "2020-06-11T22:58:09",
+  "resource" : [ {
+    "@id" : "_:b2",
+    "@type" : "dctypes:Text",
+    "http://dev.llgc.org.uk/sas/full_text" : "<pre style=\"font-family: monospace, serif; font-size: 0.9em; caret-color: #000000; text-size-adjust: auto; overflow: auto;\">2\n<pre style=\"font-family: monospace, serif; font-size: 0.9em; caret-color: #000000; text-size-adjust: auto; overflow: auto;\">And whereas a Number of well disposed Persons havinghad good Experiences of the said Mr. Macclenachan's Religious and Exemplary Deportmentand Sound Principles of Christianity <span style=\"text-decoration: line-through;\">of the Revd. Wm. Macclenachanand being resolved as far as in themselves to support and maintaintheir Religious Rights and Privileges, have subscribed andagreed to contribute a large sum of Money for the purchasingor letting on ground Rent a Lot of Ground withinthe City of Philada. and for building and erecting therona Comodious House for the Worship of God, which House whenerected is forever to be to and for the Uses and Subject to the Rules,Articles, Concessions, Constitutions and Agreements hereinafter mentioned. Now Know all whom it mayConcern that we the Subscribers and Contributors aforesaidHave conceded to, Concluded and Agreed on, and by these Presentsdo Concede, to, Conclude and Agree on the following FundamentalArticles, Rules, Concessions and <span style=\"text-decoration: line-through;\">Regulations Constitutions for the erecting,building, future Support and Government of the said Church,The True Intent and meaning whereof are not to be hereafter altered changed impaired or diminished, butto remain in full Force and Virtue and <span style=\"text-decoration: line-through;\">inviolate inviolable forever",
+    "format" : "text/html",
+    "chars" : "<pre style=\"font-family: monospace, serif; font-size: 0.9em; caret-color: #000000; text-size-adjust: auto; overflow: auto;\">2</pre>\n<pre style=\"font-family: monospace, serif; font-size: 0.9em; caret-color: #000000; text-size-adjust: auto; overflow: auto;\">And whereas a Number of well disposed Persons having<br />had good Experiences of the said Mr. Macclenachan's Religious and Exemplary Deportment<br />and Sound Principles of Christianity <span style=\"text-decoration: line-through;\">of the Revd. Wm. Macclenachan</span><br />and being resolved as far as in themselves to support and maintain<br />their Religious Rights and Privileges, have subscribed and<br />agreed to contribute a large sum of Money for the purchasing<br />or letting on ground Rent a Lot of Ground within<br />the City of Philada. and for building and erecting theron<br />a Comodious House for the Worship of God, which House when<br />erected is forever to be to and for the Uses and Subject to the Rules,<br />Articles, Concessions, Constitutions and Agreements herein<br />after mentioned. Now Know all whom it may<br />Concern that we the Subscribers and Contributors aforesaid<br />Have conceded to, Concluded and Agreed on, and by these Presents<br />do Concede, to, Conclude and Agree on the following Fundamental<br />Articles, Rules, Concessions and <span style=\"text-decoration: line-through;\">Regulations</span> Constitutions for the erecting,<br />building, future Support and Government of the said Church,<br />The True Intent and meaning whereof are not to be <br />hereafter altered changed impaired or diminished, but<br />to remain in full Force and Virtue and <span style=\"text-decoration: line-through;\">inviolate</span> inviolable forever</pre>"
+  } ],
+  "on" : [ {
+    "@id" : "_:b0",
+    "@type" : "oa:SpecificResource",
+    "within" : {
+      "@id" : "http://5a6bbdd4-14a7-41f2-a7d2-8dc076201b83",
+      "@type" : "sc:Manifest"
+    },
+    "selector" : {
+      "@id" : "_:b1",
+      "@type" : "oa:Choice",
+      "default" : {
+        "@id" : "_:b3",
+        "@type" : "oa:FragmentSelector",
+        "value" : "xywh=297,97,1618,1747"
+      },
+      "item" : {
+        "@id" : "_:b4",
+        "@type" : "oa:SvgSelector",
+        "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1914.27598,1844.0266h-808.82627v0h-808.82627v-873.50457v-873.50457h808.82627h808.82627v873.50457z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_285c25a8-f3b9-4a60-8074-897474c9053c\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"18.81238\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+      }
+    },
+    "full" : "http://64263645-6f07-4055-a854-dcf0681e936b"
+  } ],
+  "motivation" : [ "oa:commenting" ],
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+} ]
+}
