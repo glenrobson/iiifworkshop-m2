@@ -32,7 +32,7 @@
          // layout: "1x2",
          buildPath: "mirador/",
          data: [
-           { manifestUri: "./manifests/manifest.json", location: "UCLA Library"},
+           { manifestUri: "./manifests/manifest3.json", location: "UCLA Library"},
            { manifestUri: "./manifests/manifest_image.json", location: "UCLA Library"},
          ],
          mainMenuSettings: {
@@ -47,12 +47,12 @@
               physicalRuler: true,
               imageManip: { "plugin": 'imageManip', "label": 'imageEdit', showImageEdit: true }
          } },
-         // windowObjects: [
-         //    {
-         //    loadedManifest: "https://dawnchildress.com/toganoo/manifests/toganoo_1.json",
-         //    viewType: "ScrollView",
-         //    slotAddress: "row1.column1"
-         //  }],
+          windowObjects: [
+             {
+             loadedManifest: "./manifests/manifest3.json",
+             viewType: "BookView",
+             slotAddress: "row1.column1"
+           }],
        });
      });
     </script>
