@@ -73,7 +73,7 @@
 					],
 					"otherContent": [
     {
-        "@id": "http://127.0.0.1:3000/annotationsTD.json",
+        "@id": "https://ckarpinski.github.io/iiifworkshop-m2/manifests/annotationsTD.json",
         "@type": "sc:AnnotationList",
         "label": "My fantastic annotations"
     }
