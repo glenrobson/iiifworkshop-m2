@@ -1,0 +1,1395 @@
+{
+       "@context":"http://iiif.io/api/presentation/2/context.json",
+       "@id":"http://localhost:8887/annotations1.json",
+       "@type":"sc:AnnotationList",
+       "resources":
+       [
+       {
+       @id: "http://35.177.224.176:8888/annotation/1592069670994",
+       @type: "oa:Annotation",
+       dcterms:created: "2020-06-13T17:34:31",
+       dcterms:modified: "2020-06-13T18:34:21",
+       resource: [
+       {
+       @id: "_:b2",
+       @type: "dctypes:Text",
+       http://dev.llgc.org.uk/sas/full_text: "<img src="https://christykarpinski.com/images/derive/1-gate.jpg" alt="Opening the gate" width="600" height="338" />",
+       format: "text/html",
+       chars: "<p><img src="https://christykarpinski.com/images/derive/1-gate.jpg" alt="Opening the gate" width="600" height="338" /></p>"
+       }
+       ],
+       on: [
+       {
+       @id: "_:b0",
+       @type: "oa:SpecificResource",
+       within: {
+       @id: "http://06fe2ff3-887d-41e6-a0f6-c31de4e4238b",
+       @type: "sc:Manifest"
+       },
+       selector: {
+       @id: "_:b1",
+       @type: "oa:Choice",
+       default: {
+       @id: "_:b3",
+       @type: "oa:FragmentSelector",
+       value: "xywh=319,799,88,74"
+       },
+       item: {
+       @id: "_:b4",
+       @type: "oa:SvgSelector",
+       value: "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns="http://www.w3.org/2000/svg" d="M331.50921,809.50254c8.15089,-6.24701 19.64904,-10.89894 31.2029,-10.89338v0v0c11.55387,0.00556 21.61922,4.35737 31.2029,10.89338c9.58368,6.53602 13.30873,16.49564 12.92466,26.29895c-0.38407,9.80331 -4.87726,19.45031 -12.92466,26.29895c-8.04741,6.84865 -19.64904,10.89894 -31.2029,10.89338c-11.55387,-0.00556 -23.05998,-4.06697 -31.2029,-10.89338c-8.14293,-6.82641 -12.92267,-16.41783 -12.92466,-26.29895c-0.00199,-9.88112 4.77378,-20.05195 12.92466,-26.29895z" data-paper-data="{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;editable&quot;:true,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null}" id="ellipse_1dd44e64-e9ca-4d97-8bdb-b722483a3344" fill-opacity="0.00001" fill="#00bfff" fill-rule="nonzero" stroke="#00bfff" stroke-width="10.90909" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"/></svg>"
+       }
+       },
+       full: "http://c6c497a0-75da-48d4-b037-9af191795611"
+       }
+       ],
+       motivation: [
+       "oa:commenting"
+       ],
+       @context: "http://iiif.io/api/presentation/2/context.json"
+       },
+       {
+       @id: "http://35.177.224.176:8888/annotation/1592069800204",
+       @type: "oa:Annotation",
+       dcterms:created: "2020-06-13T17:36:40",
+       dcterms:modified: [
+       "2020-06-13T17:48:53",
+       "2020-06-13T18:34:36"
+       ],
+       resource: [
+       {
+       @id: "_:b2",
+       @type: "dctypes:Text",
+       http://dev.llgc.org.uk/sas/full_text: "<img src="https://christykarpinski.com/images/derive/2-gateopener.jpg" alt="Opening Gate" width="600" height="338" />",
+       format: "text/html",
+       chars: "<p><img src="https://christykarpinski.com/images/derive/2-gateopener.jpg" alt="Opening Gate" width="600" height="338" /></p>"
+       }
+       ],
+       on: [
+       {
+       @id: "_:b0",
+       @type: "oa:SpecificResource",
+       within: {
+       @id: "http://06fe2ff3-887d-41e6-a0f6-c31de4e4238b",
+       @type: "sc:Manifest"
+       },
+       selector: {
+       @id: "_:b1",
+       @type: "oa:Choice",
+       default: {
+       @id: "_:b3",
+       @type: "oa:FragmentSelector",
+       value: "xywh=638,811,92,86"
+       },
+       item: {
+       @id: "_:b4",
+       @type: "oa:SvgSelector",
+       value: "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns="http://www.w3.org/2000/svg" d="M651.51383,823.77703c8.46977,-7.19469 20.41775,-12.55232 32.42362,-12.54592v0v0c12.00588,0.0064 22.46501,5.01838 32.42362,12.54592c9.95861,7.52754 13.8294,18.99806 13.43031,30.28855c-0.39909,11.29049 -5.06807,22.40095 -13.43031,30.28855c-8.36224,7.8876 -20.41775,12.55232 -32.42362,12.54592c-12.00588,-0.0064 -23.96213,-4.68393 -32.42362,-12.54592c-8.4615,-7.86199 -13.42824,-18.90844 -13.43031,-30.28855c-0.00207,-11.3801 4.96054,-23.09386 13.43031,-30.28855z" data-paper-data="{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;editable&quot;:true,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null}" id="ellipse_ddef80b1-bd38-43f0-b2af-f44386a691c4" fill-opacity="0.00001" fill="#00bfff" fill-rule="nonzero" stroke="#00bfff" stroke-width="10.90909" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"/></svg>"
+       }
+       },
+       full: "http://c6c497a0-75da-48d4-b037-9af191795611"
+       }
+       ],
+       motivation: [
+       "oa:commenting"
+       ],
+       @context: "http://iiif.io/api/presentation/2/context.json"
+       },
+       {
+       @id: "http://35.177.224.176:8888/annotation/1592071900352",
+       @type: "oa:Annotation",
+       dcterms:created: "2020-06-13T18:11:40",
+       dcterms:modified: "2020-06-13T18:40:12",
+       resource: [
+       {
+       @id: "_:b2",
+       @type: "dctypes:Text",
+       http://dev.llgc.org.uk/sas/full_text: "<img src="https://christykarpinski.com/images/derive/3-rocks.jpg" alt="" width="600" height="338" />",
+       format: "text/html",
+       chars: "<p><img src="https://christykarpinski.com/images/derive/3-rocks.jpg" alt="" width="600" height="338" /></p>"
+       }
+       ],
+       on: [
+       {
+       @id: "_:b0",
+       @type: "oa:SpecificResource",
+       within: {
+       @id: "http://06fe2ff3-887d-41e6-a0f6-c31de4e4238b",
+       @type: "sc:Manifest"
+       },
+       selector: {
+       @id: "_:b1",
+       @type: "oa:Choice",
+       default: {
+       @id: "_:b3",
+       @type: "oa:FragmentSelector",
+       value: "xywh=1763,887,97,87"
+       },
+       item: {
+       @id: "_:b4",
+       @type: "oa:SvgSelector",
+       value: "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns="http://www.w3.org/2000/svg" d="M1777.64952,899.27849c8.93913,-7.31371 21.54923,-12.75998 34.22043,-12.75347v0v0c12.6712,0.00651 23.70995,5.1014 34.22043,12.75347c10.51048,7.65207 14.59578,19.31234 14.17457,30.7896c-0.42121,11.47726 -5.34892,22.77152 -14.17457,30.7896c-8.82565,8.01808 -21.54923,12.75998 -34.22043,12.75347c-12.6712,-0.00651 -25.29003,-4.76142 -34.22043,-12.75347c-8.9304,-7.99205 -14.17239,-19.22124 -14.17457,-30.7896c-0.00218,-11.56836 5.23544,-23.47589 14.17457,-30.7896z" data-paper-data="{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;editable&quot;:true,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null}" id="ellipse_480050a1-6b9f-4c99-b20a-0d8497b323c8" fill-opacity="0.00001" fill="#00bfff" fill-rule="nonzero" stroke="#00bfff" stroke-width="5.45455" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"/></svg>"
+       }
+       },
+       full: "http://c6c497a0-75da-48d4-b037-9af191795611"
+       }
+       ],
+       motivation: [
+       "oa:commenting"
+       ],
+       @context: "http://iiif.io/api/presentation/2/context.json"
+       },
+       {
+       @id: "http://35.177.224.176:8888/annotation/1592072155789",
+       @type: "oa:Annotation",
+       dcterms:created: "2020-06-13T18:15:55",
+       dcterms:modified: "2020-06-13T18:40:32",
+       resource: [
+       {
+       @id: "_:b2",
+       @type: "dctypes:Text",
+       http://dev.llgc.org.uk/sas/full_text: "<img src="https://christykarpinski.com/images/derive/4-house.jpg" alt="" />",
+       format: "text/html",
+       chars: "<p><img src="https://christykarpinski.com/images/derive/4-house.jpg" alt="" /></p>"
+       }
+       ],
+       on: [
+       {
+       @id: "_:b0",
+       @type: "oa:SpecificResource",
+       within: {
+       @id: "http://06fe2ff3-887d-41e6-a0f6-c31de4e4238b",
+       @type: "sc:Manifest"
+       },
+       selector: {
+       @id: "_:b1",
+       @type: "oa:Choice",
+       default: {
+       @id: "_:b3",
+       @type: "oa:FragmentSelector",
+       value: "xywh=1860,877,77,83"
+       },
+       item: {
+       @id: "_:b4",
+       @type: "oa:SvgSelector",
+       value: "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns="http://www.w3.org/2000/svg" d="M1870.77338,889.10218c7.10666,-6.99815 17.13177,-12.20944 27.20546,-12.20321v0v0c10.07369,0.00623 18.84956,4.8813 27.20546,12.20321c8.3559,7.32191 11.60373,18.47909 11.26886,29.46116c-0.33486,10.98207 -4.25242,21.78902 -11.26886,29.46116c-7.01644,7.67213 -17.13177,12.20944 -27.20546,12.20321c-10.07369,-0.00623 -20.10573,-4.55599 -27.20546,-12.20321c-7.09972,-7.64723 -11.26713,-18.39192 -11.26886,-29.46116c-0.00174,-11.06923 4.1622,-22.46301 11.26886,-29.46116z" data-paper-data="{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;editable&quot;:true,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null}" id="ellipse_a0825373-8584-4220-aa5f-e0c7cee40579" fill-opacity="0.00001" fill="#00bfff" fill-rule="nonzero" stroke="#00bfff" stroke-width="5.45455" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"/></svg>"
+       }
+       },
+       full: "http://c6c497a0-75da-48d4-b037-9af191795611"
+       }
+       ],
+       motivation: [
+       "oa:commenting"
+       ],
+       @context: "http://iiif.io/api/presentation/2/context.json"
+       },
+       {
+       @id: "http://35.177.224.176:8888/annotation/1592072182044",
+       @type: "oa:Annotation",
+       dcterms:created: "2020-06-13T18:16:22",
+       dcterms:modified: "2020-06-13T18:40:59",
+       resource: [
+       {
+       @id: "_:b2",
+       @type: "dctypes:Text",
+       http://dev.llgc.org.uk/sas/full_text: "<img src="https://christykarpinski.com/images/derive/5-leaf.jpg" alt="" />",
+       format: "text/html",
+       chars: "<p><img src="https://christykarpinski.com/images/derive/5-leaf.jpg" alt="" /></p>"
+       }
+       ],
+       on: [
+       {
+       @id: "_:b0",
+       @type: "oa:SpecificResource",
+       within: {
+       @id: "http://06fe2ff3-887d-41e6-a0f6-c31de4e4238b",
+       @type: "sc:Manifest"
+       },
+       selector: {
+       @id: "_:b1",
+       @type: "oa:Choice",
+       default: {
+       @id: "_:b4",
+       @type: "oa:FragmentSelector",
+       value: "xywh=2329,874,102,103"
+       },
+       item: {
+       @id: "_:b3",
+       @type: "oa:SvgSelector",
+       value: "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns="http://www.w3.org/2000/svg" d="M2343.74481,888.65196c9.41479,-8.68094 22.69587,-15.14534 36.04131,-15.13762v0v0c13.34544,0.00772 24.97156,6.05507 36.04131,15.13762c11.06975,9.08255 15.37242,22.92262 14.9288,36.54546c-0.44362,13.62284 -5.63354,27.02847 -14.9288,36.54546c-9.29526,9.51699 -22.69587,15.14534 -36.04131,15.13762c-13.34544,-0.00772 -26.63571,-5.65152 -36.04131,-15.13762c-9.40559,-9.4861 -14.9265,-22.81449 -14.9288,-36.54546c-0.0023,-13.73097 5.51401,-27.86452 14.9288,-36.54546z" data-paper-data="{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;editable&quot;:true,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null}" id="ellipse_2e240e7d-7f1a-4679-914b-e03aee0ab9e2" fill-opacity="0.00001" fill="#00bfff" fill-rule="nonzero" stroke="#00bfff" stroke-width="5.45455" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"/></svg>"
+       }
+       },
+       full: "http://c6c497a0-75da-48d4-b037-9af191795611"
+       }
+       ],
+       motivation: [
+       "oa:commenting"
+       ],
+       @context: "http://iiif.io/api/presentation/2/context.json"
+       },
+       {
+       @id: "http://35.177.224.176:8888/annotation/1592073703828",
+       @type: "oa:Annotation",
+       dcterms:created: "2020-06-13T18:41:43",
+       resource: [
+       {
+       @id: "_:b2",
+       @type: "dctypes:Text",
+       http://dev.llgc.org.uk/sas/full_text: "<img src="https://christykarpinski.com/images/derive/6-xmastree.jpg" alt="" />",
+       format: "text/html",
+       chars: "<p><img src="https://christykarpinski.com/images/derive/6-xmastree.jpg" alt="" /></p>"
+       }
+       ],
+       on: [
+       {
+       @id: "_:b0",
+       @type: "oa:SpecificResource",
+       within: {
+       @id: "http://06fe2ff3-887d-41e6-a0f6-c31de4e4238b",
+       @type: "sc:Manifest"
+       },
+       selector: {
+       @id: "_:b1",
+       @type: "oa:Choice",
+       default: {
+       @id: "_:b4",
+       @type: "oa:FragmentSelector",
+       value: "xywh=2687,885,101,95"
+       },
+       item: {
+       @id: "_:b3",
+       @type: "oa:SvgSelector",
+       value: "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns="http://www.w3.org/2000/svg" d="M2702.2237,898.55647c9.32782,-7.94542 22.48622,-13.86211 35.70838,-13.85504v0v0c13.22216,0.00707 24.74089,5.54204 35.70838,13.85504c10.96749,8.31301 15.23042,20.98043 14.7909,33.44904c-0.43952,12.46861 -5.5815,24.7384 -14.7909,33.44904c-9.2094,8.71064 -22.48622,13.86211 -35.70838,13.85504c-13.22216,-0.00707 -26.38967,-5.17268 -35.70838,-13.85504c-9.31871,-8.68236 -14.78862,-20.88146 -14.7909,-33.44904c-0.00228,-12.56757 5.46308,-25.50361 14.7909,-33.44904z" data-paper-data="{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}" id="ellipse_04992611-d13d-44a2-a0da-394bcd33d7da" fill-opacity="0.00001" fill="#00bfff" fill-rule="nonzero" stroke="#00bfff" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"/></svg>"
+       }
+       },
+       full: "http://c6c497a0-75da-48d4-b037-9af191795611"
+       }
+       ],
+       motivation: [
+       "oa:commenting"
+       ],
+       @context: "http://iiif.io/api/presentation/2/context.json"
+       },
+       {
+       @id: "http://35.177.224.176:8888/annotation/1592073773605",
+       @type: "oa:Annotation",
+       dcterms:created: "2020-06-13T18:42:53",
+       resource: [
+       {
+       @id: "_:b2",
+       @type: "dctypes:Text",
+       http://dev.llgc.org.uk/sas/full_text: "<img src="https://christykarpinski.com/images/derive/7-string1.jpg" alt="" />",
+       format: "text/html",
+       chars: "<p><img src="https://christykarpinski.com/images/derive/7-string1.jpg" alt="" /></p>"
+       }
+       ],
+       on: [
+       {
+       @id: "_:b0",
+       @type: "oa:SpecificResource",
+       within: {
+       @id: "http://06fe2ff3-887d-41e6-a0f6-c31de4e4238b",
+       @type: "sc:Manifest"
+       },
+       selector: {
+       @id: "_:b1",
+       @type: "oa:Choice",
+       default: {
+       @id: "_:b4",
+       @type: "oa:FragmentSelector",
+       value: "xywh=2884,881,72,148"
+       },
+       item: {
+       @id: "_:b3",
+       @type: "oa:SvgSelector",
+       value: "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns="http://www.w3.org/2000/svg" d="M2894.3049,902.71888c6.62712,-12.41777 15.97574,-21.66486 25.36967,-21.65381v0v0c9.39393,0.01105 17.57761,8.66155 25.36967,21.65381c7.79206,12.99226 10.82073,32.78995 10.50846,52.27692c-0.31227,19.48697 -3.96548,38.66322 -10.50846,52.27692c-6.54298,13.6137 -15.97574,21.66486 -25.36967,21.65381c-9.39393,-0.01105 -18.74902,-8.0843 -25.36967,-21.65381c-6.62065,-13.56951 -10.50684,-32.63528 -10.50846,-52.27692c-0.00162,-19.64164 3.88134,-39.85916 10.50846,-52.27692z" data-paper-data="{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}" id="ellipse_6c0accbb-7b52-4bed-ba6c-50fae1b1d2dd" fill-opacity="0.00001" fill="#00bfff" fill-rule="nonzero" stroke="#00bfff" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"/></svg>"
+       }
+       },
+       full: "http://c6c497a0-75da-48d4-b037-9af191795611"
+       }
+       ],
+       motivation: [
+       "oa:commenting"
+       ],
+       @context: "http://iiif.io/api/presentation/2/context.json"
+       },
+       {
+       @id: "http://35.177.224.176:8888/annotation/1592073793456",
+       @type: "oa:Annotation",
+       dcterms:created: "2020-06-13T18:43:13",
+       dcterms:modified: "2020-06-13T18:44:12",
+       resource: [
+       {
+       @id: "_:b2",
+       @type: "dctypes:Text",
+       http://dev.llgc.org.uk/sas/full_text: "<img src="https://christykarpinski.com/images/derive/8-bluetarp3.jpg" alt="" width="600" height="338" />",
+       format: "text/html",
+       chars: "<p><img src="https://christykarpinski.com/images/derive/8-bluetarp3.jpg" alt="" width="600" height="338" /></p>"
+       }
+       ],
+       on: [
+       {
+       @id: "_:b0",
+       @type: "oa:SpecificResource",
+       within: {
+       @id: "http://06fe2ff3-887d-41e6-a0f6-c31de4e4238b",
+       @type: "sc:Manifest"
+       },
+       selector: {
+       @id: "_:b1",
+       @type: "oa:Choice",
+       default: {
+       @id: "_:b4",
+       @type: "oa:FragmentSelector",
+       value: "xywh=2958,879,71,150"
+       },
+       item: {
+       @id: "_:b3",
+       @type: "oa:SvgSelector",
+       value: "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns="http://www.w3.org/2000/svg" d="M2968.76548,901.21265c6.57359,-12.59666 15.84671,-21.97697 25.16476,-21.96576v0v0c9.31805,0.01121 17.43564,8.78633 25.16476,21.96576c7.72912,13.17943 10.73334,33.26233 10.42359,53.03004c-0.30975,19.76771 -3.93345,39.22021 -10.42359,53.03004c-6.49014,13.80983 -15.84671,21.97697 -25.16476,21.96576c-9.31805,-0.01121 -18.59759,-8.20076 -25.16476,-21.96576c-6.56717,-13.765 -10.42199,-33.10543 -10.42359,-53.03004c-0.0016,-19.92461 3.85,-40.43338 10.42359,-53.03004z" data-paper-data="{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;editable&quot;:true}" id="ellipse_804133ec-824e-4729-bde5-9de71c3b970e" fill-opacity="0.00001" fill="#00bfff" fill-rule="nonzero" stroke="#00bfff" stroke-width="10.90909" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"/></svg>"
+       }
+       },
+       full: "http://c6c497a0-75da-48d4-b037-9af191795611"
+       }
+       ],
+       motivation: [
+       "oa:commenting"
+       ],
+       @context: "http://iiif.io/api/presentation/2/context.json"
+       },
+       {
+       @id: "http://35.177.224.176:8888/annotation/1592073906448",
+       @type: "oa:Annotation",
+       dcterms:created: "2020-06-13T18:45:06",
+       resource: [
+       {
+       @id: "_:b2",
+       @type: "dctypes:Text",
+       http://dev.llgc.org.uk/sas/full_text: "<img src="https://christykarpinski.com/images/derive/9-lock3.jpg" alt="" />",
+       format: "text/html",
+       chars: "<p><img src="https://christykarpinski.com/images/derive/9-lock3.jpg" alt="" /></p>"
+       }
+       ],
+       on: [
+       {
+       @id: "_:b0",
+       @type: "oa:SpecificResource",
+       within: {
+       @id: "http://06fe2ff3-887d-41e6-a0f6-c31de4e4238b",
+       @type: "sc:Manifest"
+       },
+       selector: {
+       @id: "_:b1",
+       @type: "oa:Choice",
+       default: {
+       @id: "_:b3",
+       @type: "oa:FragmentSelector",
+       value: "xywh=3226,881,128,106"
+       },
+       item: {
+       @id: "_:b4",
+       @type: "oa:SvgSelector",
+       value: "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns="http://www.w3.org/2000/svg" d="M3244.58061,896.44375c11.78262,-8.94086 28.40391,-15.59882 45.10575,-15.59086v0v0c16.70184,0.00795 31.25195,6.23637 45.10575,15.59086c13.85381,9.3545 19.23861,23.60895 18.68342,37.63967c-0.55519,14.03073 -7.05038,27.83773 -18.68342,37.63967c-11.63303,9.80194 -28.40391,15.59882 -45.10575,15.59086c-16.70184,-0.00795 -33.33464,-5.82074 -45.10575,-15.59086c-11.77111,-9.77012 -18.68054,-23.49758 -18.68342,-37.63967c-0.00288,-14.14209 6.9008,-28.69881 18.68342,-37.63967z" data-paper-data="{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}" id="ellipse_7028cc0b-88d6-4e89-8da1-558bc841deee" fill-opacity="0.00001" fill="#00bfff" fill-rule="nonzero" stroke="#00bfff" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"/></svg>"
+       }
+       },
+       full: "http://c6c497a0-75da-48d4-b037-9af191795611"
+       }
+       ],
+       motivation: [
+       "oa:commenting"
+       ],
+       @context: "http://iiif.io/api/presentation/2/context.json"
+       },
+       {
+       @id: "http://35.177.224.176:8888/annotation/1592073956155",
+       @type: "oa:Annotation",
+       dcterms:created: "2020-06-13T18:45:56",
+       resource: [
+       {
+       @id: "_:b2",
+       @type: "dctypes:Text",
+       http://dev.llgc.org.uk/sas/full_text: "<img src="https://christykarpinski.com/images/derive/10-tricycle2.jpg" alt="" />",
+       format: "text/html",
+       chars: "<p><img src="https://christykarpinski.com/images/derive/10-tricycle2.jpg" alt="" /></p>"
+       }
+       ],
+       on: [
+       {
+       @id: "_:b0",
+       @type: "oa:SpecificResource",
+       within: {
+       @id: "http://06fe2ff3-887d-41e6-a0f6-c31de4e4238b",
+       @type: "sc:Manifest"
+       },
+       selector: {
+       @id: "_:b1",
+       @type: "oa:Choice",
+       default: {
+       @id: "_:b3",
+       @type: "oa:FragmentSelector",
+       value: "xywh=3850,895,92,77"
+       },
+       item: {
+       @id: "_:b4",
+       @type: "oa:SvgSelector",
+       value: "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns="http://www.w3.org/2000/svg" d="M3862.97857,906.53395c8.4671,-6.45799 20.41132,-11.26703 32.41341,-11.26129v0v0c12.0021,0.00575 22.45794,4.50453 32.41341,11.26129c9.95548,6.75676 13.82504,17.05275 13.42608,27.18716c-0.39897,10.1344 -5.06647,20.10721 -13.42608,27.18716c-8.35961,7.07995 -20.41132,11.26703 -32.41341,11.26129c-12.0021,-0.00575 -23.95458,-4.20432 -32.41341,-11.26129c-8.45883,-7.05696 -13.42401,-16.97232 -13.42608,-27.18716c-0.00207,-10.21484 4.95898,-20.72917 13.42608,-27.18716z" data-paper-data="{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}" id="ellipse_c4714ea7-31f4-44e1-aca6-e7eaf5a9a78c" fill-opacity="0.00001" fill="#00bfff" fill-rule="nonzero" stroke="#00bfff" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"/></svg>"
+       }
+       },
+       full: "http://c6c497a0-75da-48d4-b037-9af191795611"
+       }
+       ],
+       motivation: [
+       "oa:commenting"
+       ],
+       @context: "http://iiif.io/api/presentation/2/context.json"
+       },
+       {
+       @id: "http://35.177.224.176:8888/annotation/1592074006144",
+       @type: "oa:Annotation",
+       dcterms:created: "2020-06-13T18:46:46",
+       resource: [
+       {
+       @id: "_:b2",
+       @type: "dctypes:Text",
+       http://dev.llgc.org.uk/sas/full_text: "<img src="https://christykarpinski.com/images/derive/11-bicycles3.jpg" alt="" />",
+       format: "text/html",
+       chars: "<p><img src="https://christykarpinski.com/images/derive/11-bicycles3.jpg" alt="" /></p>"
+       }
+       ],
+       on: [
+       {
+       @id: "_:b0",
+       @type: "oa:SpecificResource",
+       within: {
+       @id: "http://06fe2ff3-887d-41e6-a0f6-c31de4e4238b",
+       @type: "sc:Manifest"
+       },
+       selector: {
+       @id: "_:b1",
+       @type: "oa:Choice",
+       default: {
+       @id: "_:b4",
+       @type: "oa:FragmentSelector",
+       value: "xywh=4504,888,92,79"
+       },
+       item: {
+       @id: "_:b3",
+       @type: "oa:SvgSelector",
+       value: "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns="http://www.w3.org/2000/svg" d="M4517.67721,899.30944c8.4671,-6.63534 20.41132,-11.57645 32.41341,-11.57054v0v0c12.0021,0.0059 22.45794,4.62823 32.41341,11.57054c9.95548,6.94231 13.82504,17.52105 13.42608,27.93376c-0.39897,10.41271 -5.06647,20.65939 -13.42608,27.93376c-8.35961,7.27438 -20.41132,11.57645 -32.41341,11.57054c-12.0021,-0.0059 -23.95458,-4.31978 -32.41341,-11.57054c-8.45883,-7.25076 -13.42401,-17.43841 -13.42608,-27.93376c-0.00207,-10.49536 4.95898,-21.29843 13.42608,-27.93376z" data-paper-data="{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}" id="ellipse_735a0fac-9822-4f9c-b14f-a889d715852f" fill-opacity="0.00001" fill="#00bfff" fill-rule="nonzero" stroke="#00bfff" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"/></svg>"
+       }
+       },
+       full: "http://c6c497a0-75da-48d4-b037-9af191795611"
+       }
+       ],
+       motivation: [
+       "oa:commenting"
+       ],
+       @context: "http://iiif.io/api/presentation/2/context.json"
+       },
+       {
+       @id: "http://35.177.224.176:8888/annotation/1592074043504",
+       @type: "oa:Annotation",
+       dcterms:created: "2020-06-13T18:47:23",
+       resource: [
+       {
+       @id: "_:b2",
+       @type: "dctypes:Text",
+       http://dev.llgc.org.uk/sas/full_text: "<img src="https://christykarpinski.com/images/derive/11-ohwatsdat.jpg" alt="" />",
+       format: "text/html",
+       chars: "<p><img src="https://christykarpinski.com/images/derive/11-ohwatsdat.jpg" alt="" /></p>"
+       }
+       ],
+       on: [
+       {
+       @id: "_:b0",
+       @type: "oa:SpecificResource",
+       within: {
+       @id: "http://06fe2ff3-887d-41e6-a0f6-c31de4e4238b",
+       @type: "sc:Manifest"
+       },
+       selector: {
+       @id: "_:b1",
+       @type: "oa:Choice",
+       default: {
+       @id: "_:b3",
+       @type: "oa:FragmentSelector",
+       value: "xywh=4800,906,62,56"
+       },
+       item: {
+       @id: "_:b4",
+       @type: "oa:SvgSelector",
+       value: "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns="http://www.w3.org/2000/svg" d="M4808.95304,913.93235c5.73667,-4.68451 13.82918,-8.1729 21.9609,-8.16874v0v0c8.13172,0.00417 15.21581,3.2675 21.9609,8.16874c6.74508,4.90123 9.36681,12.36976 9.0965,19.72107c-0.27031,7.35131 -3.43266,14.58541 -9.0965,19.72107c-5.66384,5.13567 -13.82918,8.1729 -21.9609,8.16874c-8.13172,-0.00417 -16.22983,-3.04974 -21.9609,-8.16874c-5.73107,-5.11899 -9.0951,-12.31141 -9.0965,-19.72107c-0.0014,-7.40966 3.35983,-15.03656 9.0965,-19.72107z" data-paper-data="{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}" id="ellipse_2e689f57-8853-43c8-ab1e-9df80024f8a9" fill-opacity="0.00001" fill="#00bfff" fill-rule="nonzero" stroke="#00bfff" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"/></svg>"
+       }
+       },
+       full: "http://c6c497a0-75da-48d4-b037-9af191795611"
+       }
+       ],
+       motivation: [
+       "oa:commenting"
+       ],
+       @context: "http://iiif.io/api/presentation/2/context.json"
+       },
+       {
+       @id: "http://35.177.224.176:8888/annotation/1592074078167",
+       @type: "oa:Annotation",
+       dcterms:created: "2020-06-13T18:47:58",
+       resource: [
+       {
+       @id: "_:b2",
+       @type: "dctypes:Text",
+       http://dev.llgc.org.uk/sas/full_text: "<img src="https://christykarpinski.com/images/derive/12-blacktruck.jpg" alt="" />",
+       format: "text/html",
+       chars: "<p><img src="https://christykarpinski.com/images/derive/12-blacktruck.jpg" alt="" /></p>"
+       }
+       ],
+       on: [
+       {
+       @id: "_:b0",
+       @type: "oa:SpecificResource",
+       within: {
+       @id: "http://06fe2ff3-887d-41e6-a0f6-c31de4e4238b",
+       @type: "sc:Manifest"
+       },
+       selector: {
+       @id: "_:b1",
+       @type: "oa:Choice",
+       default: {
+       @id: "_:b3",
+       @type: "oa:FragmentSelector",
+       value: "xywh=5370,906,87,75"
+       },
+       item: {
+       @id: "_:b4",
+       @type: "oa:SvgSelector",
+       value: "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns="http://www.w3.org/2000/svg" d="M5382.49167,916.66636c8.07704,-6.28064 19.47101,-10.95762 30.9202,-10.95203v0v0c11.44919,0.00559 21.42335,4.38083 30.9202,10.95203c9.49685,6.57121 13.18815,16.58445 12.80756,26.44055c-0.38059,9.85609 -4.83307,19.55503 -12.80756,26.44055c-7.9745,6.88552 -19.47101,10.95762 -30.9202,10.95203c-11.44919,-0.00559 -22.85105,-4.08887 -30.9202,-10.95203c-8.06915,-6.86317 -12.80559,-16.50623 -12.80756,-26.44055c-0.00197,-9.93432 4.73053,-20.15991 12.80756,-26.44055z" data-paper-data="{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}" id="ellipse_fc700154-db7c-4a72-84ac-c06c22355344" fill-opacity="0.00001" fill="#00bfff" fill-rule="nonzero" stroke="#00bfff" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"/></svg>"
+       }
+       },
+       full: "http://c6c497a0-75da-48d4-b037-9af191795611"
+       }
+       ],
+       motivation: [
+       "oa:commenting"
+       ],
+       @context: "http://iiif.io/api/presentation/2/context.json"
+       },
+       {
+       @id: "http://35.177.224.176:8888/annotation/1592074112805",
+       @type: "oa:Annotation",
+       dcterms:created: "2020-06-13T18:48:32",
+       resource: [
+       {
+       @id: "_:b2",
+       @type: "dctypes:Text",
+       http://dev.llgc.org.uk/sas/full_text: "<img src="https://christykarpinski.com/images/derive/13-carleaving.jpg" alt="" />",
+       format: "text/html",
+       chars: "<p><img src="https://christykarpinski.com/images/derive/13-carleaving.jpg" alt="" /></p>"
+       }
+       ],
+       on: [
+       {
+       @id: "_:b0",
+       @type: "oa:SpecificResource",
+       within: {
+       @id: "http://06fe2ff3-887d-41e6-a0f6-c31de4e4238b",
+       @type: "sc:Manifest"
+       },
+       selector: {
+       @id: "_:b1",
+       @type: "oa:Choice",
+       default: {
+       @id: "_:b3",
+       @type: "oa:FragmentSelector",
+       value: "xywh=6555,898,92,94"
+       },
+       item: {
+       @id: "_:b4",
+       @type: "oa:SvgSelector",
+       value: "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns="http://www.w3.org/2000/svg" d="M6568.46079,911.33853c8.4671,-7.87677 20.41132,-13.74234 32.41341,-13.73533v0v0c12.0021,0.00701 22.45794,5.49415 32.41341,13.73533c9.95548,8.24118 13.82504,20.79915 13.42608,33.16002c-0.39897,12.36087 -5.06647,24.52465 -13.42608,33.16002c-8.35961,8.63537 -20.41132,13.74234 -32.41341,13.73533c-12.0021,-0.00701 -23.95458,-5.12799 -32.41341,-13.73533c-8.45883,-8.60734 -13.42401,-20.70104 -13.42608,-33.16002c-0.00207,-12.45898 4.95898,-25.28325 13.42608,-33.16002z" data-paper-data="{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}" id="ellipse_b1016c79-cd14-4bfb-a68d-5962d325e727" fill-opacity="0.00001" fill="#00bfff" fill-rule="nonzero" stroke="#00bfff" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"/></svg>"
+       }
+       },
+       full: "http://c6c497a0-75da-48d4-b037-9af191795611"
+       }
+       ],
+       motivation: [
+       "oa:commenting"
+       ],
+       @context: "http://iiif.io/api/presentation/2/context.json"
+       },
+       {
+       @id: "http://35.177.224.176:8888/annotation/1592074157210",
+       @type: "oa:Annotation",
+       dcterms:created: "2020-06-13T18:49:17",
+       resource: [
+       {
+       @id: "_:b2",
+       @type: "dctypes:Text",
+       http://dev.llgc.org.uk/sas/full_text: "<img src="https://christykarpinski.com/images/derive/14-down.jpg" alt="" />",
+       format: "text/html",
+       chars: "<p><img src="https://christykarpinski.com/images/derive/14-down.jpg" alt="" /></p>"
+       }
+       ],
+       on: [
+       {
+       @id: "_:b0",
+       @type: "oa:SpecificResource",
+       within: {
+       @id: "http://06fe2ff3-887d-41e6-a0f6-c31de4e4238b",
+       @type: "sc:Manifest"
+       },
+       selector: {
+       @id: "_:b1",
+       @type: "oa:Choice",
+       default: {
+       @id: "_:b3",
+       @type: "oa:FragmentSelector",
+       value: "xywh=7130,896,73,71"
+       },
+       item: {
+       @id: "_:b4",
+       @type: "oa:SvgSelector",
+       value: "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns="http://www.w3.org/2000/svg" d="M7140.66605,906.13425c6.71182,-5.92594 16.17994,-10.33879 25.69394,-10.33352v0v0c9.514,0.00527 17.80229,4.13342 25.69394,10.33352c7.89165,6.2001 10.95904,15.64786 10.64278,24.94733c-0.31626,9.29947 -4.01616,18.45067 -10.64278,24.94733c-6.62661,6.49666 -16.17994,10.33879 -25.69394,10.33352c-9.514,-0.00527 -18.98867,-3.85795 -25.69394,-10.33352c-6.70527,-6.47557 -10.64114,-15.57404 -10.64278,-24.94733c-0.00164,-9.37329 3.93095,-19.02139 10.64278,-24.94733z" data-paper-data="{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}" id="ellipse_b7f755e7-cd1d-46cd-be00-4eac6f8d921f" fill-opacity="0.00001" fill="#00bfff" fill-rule="nonzero" stroke="#00bfff" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"/></svg>"
+       }
+       },
+       full: "http://c6c497a0-75da-48d4-b037-9af191795611"
+       }
+       ],
+       motivation: [
+       "oa:commenting"
+       ],
+       @context: "http://iiif.io/api/presentation/2/context.json"
+       },
+       {
+       @id: "http://35.177.224.176:8888/annotation/1592074275051",
+       @type: "oa:Annotation",
+       dcterms:created: "2020-06-13T18:51:15",
+       resource: [
+       {
+       @id: "_:b2",
+       @type: "dctypes:Text",
+       http://dev.llgc.org.uk/sas/full_text: "<img src="https://christykarpinski.com/images/derive/14-walkingover.jpg" alt="" />",
+       format: "text/html",
+       chars: "<p><img src="https://christykarpinski.com/images/derive/14-walkingover.jpg" alt="" /></p>"
+       }
+       ],
+       on: [
+       {
+       @id: "_:b0",
+       @type: "oa:SpecificResource",
+       within: {
+       @id: "http://06fe2ff3-887d-41e6-a0f6-c31de4e4238b",
+       @type: "sc:Manifest"
+       },
+       selector: {
+       @id: "_:b1",
+       @type: "oa:Choice",
+       default: {
+       @id: "_:b3",
+       @type: "oa:FragmentSelector",
+       value: "xywh=7240,597,141,257"
+       },
+       item: {
+       @id: "_:b4",
+       @type: "oa:SvgSelector",
+       value: "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns="http://www.w3.org/2000/svg" d="M7324.78145,610.56428c0,6.79113 -4.28617,5.71489 -8.14359,10.85812c-8.27597,11.03462 -18.18061,18.71677 -24.43078,31.21711c-7.79988,15.59975 -12.17346,32.44857 -17.64445,48.86156c-0.92355,2.77065 -0.42835,9.92921 -2.71453,12.21539c-8.21374,8.21374 -21.46707,26.14858 -24.43078,38.00343c-1.88053,7.52212 0.53893,15.48874 -1.35727,23.07351c-1.99208,7.96832 -4.0718,15.71139 -4.0718,24.43078c0,19.05338 -9.40616,46.63101 13.57265,54.29062c9.21064,3.07021 16.36815,-14.37274 20.35898,-20.35898c17.95641,-26.93462 10.62901,-61.74688 20.35898,-90.93679c4.74123,-14.22369 17.08648,-29.02288 25.78804,-42.07523c2.66882,-4.00322 4.69086,-10.11992 8.14359,-13.57265c7.91362,-7.91362 21.70829,-9.4929 29.85984,-17.64445c10.54474,-10.54474 16.69329,-19.26887 20.35898,-33.93164c4.26765,-17.0706 -8.03522,-29.33517 -19.00172,-36.64617c-6.60935,-4.40623 -29.85984,6.34646 -29.85984,12.21539" data-paper-data="{&quot;strokeWidth&quot;:1,&quot;deleteIcon&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}" id="smooth_path_ac8c673a-b3af-40a0-920c-502f9eee53b7" fill="none" fill-rule="nonzero" stroke="#00bfff" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"/></svg>"
+       }
+       },
+       full: "http://c6c497a0-75da-48d4-b037-9af191795611"
+       }
+       ],
+       motivation: [
+       "oa:commenting"
+       ],
+       @context: "http://iiif.io/api/presentation/2/context.json"
+       },
+       {
+       @id: "http://35.177.224.176:8888/annotation/1592074370775",
+       @type: "oa:Annotation",
+       dcterms:created: "2020-06-13T18:52:50",
+       resource: [
+       {
+       @id: "_:b2",
+       @type: "dctypes:Text",
+       http://dev.llgc.org.uk/sas/full_text: "<img src="https://christykarpinski.com/images/derive/15-downhere.jpg" alt="" />",
+       format: "text/html",
+       chars: "<p><img src="https://christykarpinski.com/images/derive/15-downhere.jpg" alt="" /></p>"
+       }
+       ],
+       on: [
+       {
+       @id: "_:b0",
+       @type: "oa:SpecificResource",
+       within: {
+       @id: "http://06fe2ff3-887d-41e6-a0f6-c31de4e4238b",
+       @type: "sc:Manifest"
+       },
+       selector: {
+       @id: "_:b1",
+       @type: "oa:Choice",
+       default: {
+       @id: "_:b3",
+       @type: "oa:FragmentSelector",
+       value: "xywh=7804,-1,96,80"
+       },
+       item: {
+       @id: "_:b4",
+       @type: "oa:SvgSelector",
+       value: "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns="http://www.w3.org/2000/svg" d="M7862.65217,1.95446c-9.42975,0 -20.07052,1.54107 -29.31693,0c-4.95098,-0.82516 -16.18401,-4.612 -21.49908,-1.95446c-8.53316,4.26658 -7.81785,18.97371 -7.81785,27.36247c0,28.36771 16.73261,42.06083 42.99817,50.81602c2.94975,0.98325 8.70346,0 11.72677,0c21.48921,0 41.04371,-11.49457 41.04371,-37.13478c0,-3.3316 1.61074,-12.41422 0,-15.6357c-4.41376,-8.82751 -11.42771,-13.38217 -15.6357,-17.59016c-1.18682,-1.18682 -14.44887,-2.7221 -15.6357,-3.90892c-2.49847,-2.49847 -6.36287,-3.90892 -11.72677,-3.90892" data-paper-data="{&quot;strokeWidth&quot;:1,&quot;deleteIcon&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}" id="smooth_path_231884bc-8b6d-46a0-a914-d2612940de9f" fill="none" fill-rule="nonzero" stroke="#00bfff" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"/></svg>"
+       }
+       },
+       full: "http://c6c497a0-75da-48d4-b037-9af191795611"
+       }
+       ],
+       motivation: [
+       "oa:commenting"
+       ],
+       @context: "http://iiif.io/api/presentation/2/context.json"
+       },
+       {
+       @id: "http://35.177.224.176:8888/annotation/1592074389697",
+       @type: "oa:Annotation",
+       dcterms:created: "2020-06-13T18:53:09",
+       resource: [
+       {
+       @id: "_:b2",
+       @type: "dctypes:Text",
+       http://dev.llgc.org.uk/sas/full_text: "<img src="https://christykarpinski.com/images/derive/15-downherelock.jpg" alt="" />",
+       format: "text/html",
+       chars: "<p><img src="https://christykarpinski.com/images/derive/15-downherelock.jpg" alt="" /></p>"
+       }
+       ],
+       on: [
+       {
+       @id: "_:b0",
+       @type: "oa:SpecificResource",
+       within: {
+       @id: "http://06fe2ff3-887d-41e6-a0f6-c31de4e4238b",
+       @type: "sc:Manifest"
+       },
+       selector: {
+       @id: "_:b1",
+       @type: "oa:Choice",
+       default: {
+       @id: "_:b3",
+       @type: "oa:FragmentSelector",
+       value: "xywh=7898,-1,102,81"
+       },
+       item: {
+       @id: "_:b4",
+       @type: "oa:SvgSelector",
+       value: "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns="http://www.w3.org/2000/svg" d="M7915.42265,74.26957c9.54718,0 21.84482,1.88532 31.2714,0c7.34151,-1.4683 13.70513,-5.88728 17.59016,-9.77231c0.97723,-0.97723 4.88616,0.97723 5.86339,0c8.53835,-8.53835 14.11775,-8.69087 21.49908,-23.45355c5.74431,-11.48862 13.52834,-25.56091 1.95446,-37.13478c-1.03009,-1.03009 -0.65149,-3.25744 -1.95446,-3.90892c-4.10343,-2.05172 -14.60666,0 -19.54462,0c-16.28719,0 -32.57437,0 -48.86156,0c-1.88313,0 -19.36085,-0.18377 -19.54462,0c-1.54345,1.54345 -2.92348,13.66481 -3.90892,15.6357c-3.26049,6.52098 -1.95446,15.67562 -1.95446,23.45355c0,20.06446 6.29996,41.04371 25.40801,41.04371" data-paper-data="{&quot;strokeWidth&quot;:1,&quot;deleteIcon&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}" id="smooth_path_7201086b-da9a-436f-ad35-cb5f4fb1ba48" fill="none" fill-rule="nonzero" stroke="#00bfff" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"/></svg>"
+       }
+       },
+       full: "http://c6c497a0-75da-48d4-b037-9af191795611"
+       }
+       ],
+       motivation: [
+       "oa:commenting"
+       ],
+       @context: "http://iiif.io/api/presentation/2/context.json"
+       },
+       {
+       @id: "http://35.177.224.176:8888/annotation/1592074478731",
+       @type: "oa:Annotation",
+       dcterms:created: "2020-06-13T18:54:38",
+       resource: [
+       {
+       @id: "_:b2",
+       @type: "dctypes:Text",
+       http://dev.llgc.org.uk/sas/full_text: "<img src="https://christykarpinski.com/images/derive/16-sky.jpg" alt="" />",
+       format: "text/html",
+       chars: "<p><img src="https://christykarpinski.com/images/derive/16-sky.jpg" alt="" /></p>"
+       }
+       ],
+       on: [
+       {
+       @id: "_:b0",
+       @type: "oa:SpecificResource",
+       within: {
+       @id: "http://06fe2ff3-887d-41e6-a0f6-c31de4e4238b",
+       @type: "sc:Manifest"
+       },
+       selector: {
+       @id: "_:b1",
+       @type: "oa:Choice",
+       default: {
+       @id: "_:b3",
+       @type: "oa:FragmentSelector",
+       value: "xywh=7877,337,74,86"
+       },
+       item: {
+       @id: "_:b4",
+       @type: "oa:SvgSelector",
+       value: "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns="http://www.w3.org/2000/svg" d="M7888.34785,349.85861c6.85483,-7.19485 16.52469,-12.55261 26.24141,-12.54621v0v0c9.71672,0.0064 18.1816,5.0185 26.24141,12.54621c8.0598,7.52771 11.19254,18.99849 10.86955,30.28923c-0.323,11.29074 -4.10174,22.40146 -10.86955,30.28923c-6.76781,7.88777 -16.52469,12.55261 -26.24141,12.54621c-9.71672,-0.0064 -19.39326,-4.68404 -26.24141,-12.54621c-6.84814,-7.86217 -10.86787,-18.90887 -10.86955,-30.28923c-0.00167,-11.38036 4.01471,-23.09438 10.86955,-30.28923z" data-paper-data="{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}" id="ellipse_bbef707e-4fd8-4917-8394-6b2140ee26da" fill-opacity="0.00001" fill="#00bfff" fill-rule="nonzero" stroke="#00bfff" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"/></svg>"
+       }
+       },
+       full: "http://c6c497a0-75da-48d4-b037-9af191795611"
+       }
+       ],
+       motivation: [
+       "oa:commenting"
+       ],
+       @context: "http://iiif.io/api/presentation/2/context.json"
+       },
+       {
+       @id: "http://35.177.224.176:8888/annotation/1592074653736",
+       @type: "oa:Annotation",
+       dcterms:created: "2020-06-13T18:57:33",
+       resource: [
+       {
+       @id: "_:b2",
+       @type: "dctypes:Text",
+       http://dev.llgc.org.uk/sas/full_text: "<img src="https://christykarpinski.com/images/derive/16-sky-jj.jpg" alt="" />",
+       format: "text/html",
+       chars: "<p><img src="https://christykarpinski.com/images/derive/16-sky-jj.jpg" alt="" /></p>"
+       }
+       ],
+       on: [
+       {
+       @id: "_:b0",
+       @type: "oa:SpecificResource",
+       within: {
+       @id: "http://06fe2ff3-887d-41e6-a0f6-c31de4e4238b",
+       @type: "sc:Manifest"
+       },
+       selector: {
+       @id: "_:b1",
+       @type: "oa:Choice",
+       default: {
+       @id: "_:b3",
+       @type: "oa:FragmentSelector",
+       value: "xywh=7877,244,80,93"
+       },
+       item: {
+       @id: "_:b4",
+       @type: "oa:SvgSelector",
+       value: "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns="http://www.w3.org/2000/svg" d="M7889.07337,257.86532c7.41814,-7.81893 17.88262,-13.64142 28.39781,-13.63446v0v0c10.51519,0.00696 19.67569,5.4538 28.39781,13.63446c8.72212,8.18066 12.1123,20.64641 11.76276,32.9165c-0.34954,12.2701 -4.4388,24.34455 -11.76276,32.9165c-7.32396,8.57196 -17.88262,13.64142 -28.39781,13.63446c-10.51519,-0.00696 -20.98692,-5.09033 -28.39781,-13.63446c-7.41089,-8.54413 -11.76095,-20.54902 -11.76276,-32.9165c-0.00181,-12.36749 4.34462,-25.09757 11.76276,-32.9165z" data-paper-data="{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}" id="ellipse_a8b0a393-9a05-4297-a08d-06edf814857c" fill-opacity="0.00001" fill="#00bfff" fill-rule="nonzero" stroke="#00bfff" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"/></svg>"
+       }
+       },
+       full: "http://c6c497a0-75da-48d4-b037-9af191795611"
+       }
+       ],
+       motivation: [
+       "oa:commenting"
+       ],
+       @context: "http://iiif.io/api/presentation/2/context.json"
+       },
+       {
+       @id: "http://35.177.224.176:8888/annotation/1592074681125",
+       @type: "oa:Annotation",
+       dcterms:created: "2020-06-13T18:58:01",
+       dcterms:modified: "2020-06-13T18:58:32",
+       resource: [
+       {
+       @id: "_:b2",
+       @type: "dctypes:Text",
+       http://dev.llgc.org.uk/sas/full_text: "<img src="https://christykarpinski.com/images/derive/17-pumpkin.jpg" alt="" />",
+       format: "text/html",
+       chars: "<p><img src="https://christykarpinski.com/images/derive/17-pumpkin.jpg" alt="" /></p>"
+       }
+       ],
+       on: [
+       {
+       @id: "_:b0",
+       @type: "oa:SpecificResource",
+       within: {
+       @id: "http://06fe2ff3-887d-41e6-a0f6-c31de4e4238b",
+       @type: "sc:Manifest"
+       },
+       selector: {
+       @id: "_:b1",
+       @type: "oa:Choice",
+       default: {
+       @id: "_:b3",
+       @type: "oa:FragmentSelector",
+       value: "xywh=7873,453,77,42"
+       },
+       item: {
+       @id: "_:b4",
+       @type: "oa:SvgSelector",
+       value: "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns="http://www.w3.org/2000/svg" d="M7884.05999,459.47009c7.12304,-3.52586 17.17124,-6.15145 27.26814,-6.14832v0v0c10.0969,0.00314 18.89299,2.45933 27.26814,6.14832c8.37515,3.68898 11.63047,9.31028 11.29483,14.84335c-0.33564,5.53307 -4.26222,10.97792 -11.29483,14.84335c-7.03261,3.86543 -17.17124,6.15145 -27.26814,6.14832c-10.0969,-0.00314 -20.15206,-2.29543 -27.26814,-6.14832c-7.11608,-3.85289 -11.29309,-9.26636 -11.29483,-14.84335c-0.00174,-5.57699 4.17179,-11.31749 11.29483,-14.84335z" data-paper-data="{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;editable&quot;:true,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null}" id="ellipse_0d8257ae-cef3-41a7-9ea2-1ba160a750c7" fill-opacity="0.00001" fill="#00bfff" fill-rule="nonzero" stroke="#00bfff" stroke-width="5.45455" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"/></svg>"
+       }
+       },
+       full: "http://c6c497a0-75da-48d4-b037-9af191795611"
+       }
+       ],
+       motivation: [
+       "oa:commenting"
+       ],
+       @context: "http://iiif.io/api/presentation/2/context.json"
+       },
+       {
+       @id: "http://35.177.224.176:8888/annotation/1592074739463",
+       @type: "oa:Annotation",
+       dcterms:created: "2020-06-13T18:58:59",
+       resource: [
+       {
+       @id: "_:b2",
+       @type: "dctypes:Text",
+       http://dev.llgc.org.uk/sas/full_text: "<img src="https://christykarpinski.com/images/derive/18-chair.jpg" alt="" />",
+       format: "text/html",
+       chars: "<p><img src="https://christykarpinski.com/images/derive/18-chair.jpg" alt="" /></p>"
+       }
+       ],
+       on: [
+       {
+       @id: "_:b0",
+       @type: "oa:SpecificResource",
+       within: {
+       @id: "http://06fe2ff3-887d-41e6-a0f6-c31de4e4238b",
+       @type: "sc:Manifest"
+       },
+       selector: {
+       @id: "_:b1",
+       @type: "oa:Choice",
+       default: {
+       @id: "_:b3",
+       @type: "oa:FragmentSelector",
+       value: "xywh=7875,495,78,54"
+       },
+       item: {
+       @id: "_:b4",
+       @type: "oa:SvgSelector",
+       value: "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns="http://www.w3.org/2000/svg" d="M7886.03414,503.36574c7.2214,-4.57264 17.40837,-7.97773 27.64469,-7.97367v0v0c10.23633,0.00407 19.15389,3.18948 27.64469,7.97367c8.49081,4.78419 11.79108,12.07437 11.45081,19.25013c-0.34027,7.17576 -4.32108,14.23711 -11.45081,19.25013c-7.12973,5.01303 -17.40837,7.97773 -27.64469,7.97367c-10.23633,-0.00407 -20.43034,-2.97691 -27.64469,-7.97367c-7.21435,-4.99675 -11.44904,-12.01741 -11.45081,-19.25013c-0.00176,-7.23272 4.2294,-14.67749 11.45081,-19.25013z" data-paper-data="{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}" id="ellipse_329a96dc-4e78-432c-96a0-c4093904ce10" fill-opacity="0.00001" fill="#00bfff" fill-rule="nonzero" stroke="#00bfff" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"/></svg>"
+       }
+       },
+       full: "http://c6c497a0-75da-48d4-b037-9af191795611"
+       }
+       ],
+       motivation: [
+       "oa:commenting"
+       ],
+       @context: "http://iiif.io/api/presentation/2/context.json"
+       },
+       {
+       @id: "http://35.177.224.176:8888/annotation/1592074765346",
+       @type: "oa:Annotation",
+       dcterms:created: "2020-06-13T18:59:25",
+       resource: [
+       {
+       @id: "_:b2",
+       @type: "dctypes:Text",
+       http://dev.llgc.org.uk/sas/full_text: "<img src="https://christykarpinski.com/images/derive/19-whatsthat.jpg" alt="" />",
+       format: "text/html",
+       chars: "<p><img src="https://christykarpinski.com/images/derive/19-whatsthat.jpg" alt="" /></p>"
+       }
+       ],
+       on: [
+       {
+       @id: "_:b0",
+       @type: "oa:SpecificResource",
+       within: {
+       @id: "http://06fe2ff3-887d-41e6-a0f6-c31de4e4238b",
+       @type: "sc:Manifest"
+       },
+       selector: {
+       @id: "_:b1",
+       @type: "oa:Choice",
+       default: {
+       @id: "_:b4",
+       @type: "oa:FragmentSelector",
+       value: "xywh=8010,880,84,76"
+       },
+       item: {
+       @id: "_:b3",
+       @type: "oa:SvgSelector",
+       value: "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns="http://www.w3.org/2000/svg" d="M8022.26856,891.07639c7.71323,-6.38778 18.59399,-11.14454 29.52748,-11.13886v0v0c10.93349,0.00568 20.45839,4.45556 29.52748,11.13886c9.06909,6.6833 12.59413,16.86736 12.23068,26.89158c-0.36345,10.02422 -4.61538,19.8886 -12.23068,26.89158c-7.61531,7.00297 -18.59399,11.14454 -29.52748,11.13886c-10.93349,-0.00568 -21.82178,-4.15861 -29.52748,-11.13886c-7.7057,-6.98024 -12.2288,-16.78779 -12.23068,-26.89158c-0.00188,-10.10378 4.51745,-20.5038 12.23068,-26.89158z" data-paper-data="{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}" id="ellipse_090eaa8d-ce35-472c-863b-c97b16360a34" fill-opacity="0.00001" fill="#00bfff" fill-rule="nonzero" stroke="#00bfff" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"/></svg>"
+       }
+       },
+       full: "http://c6c497a0-75da-48d4-b037-9af191795611"
+       }
+       ],
+       motivation: [
+       "oa:commenting"
+       ],
+       @context: "http://iiif.io/api/presentation/2/context.json"
+       },
+       {
+       @id: "http://35.177.224.176:8888/annotation/1592074828184",
+       @type: "oa:Annotation",
+       dcterms:created: "2020-06-13T19:00:28",
+       resource: [
+       {
+       @id: "_:b2",
+       @type: "dctypes:Text",
+       http://dev.llgc.org.uk/sas/full_text: "<img src="https://christykarpinski.com/images/derive/20-gasmeter.jpg" alt="" />",
+       format: "text/html",
+       chars: "<p><img src="https://christykarpinski.com/images/derive/20-gasmeter.jpg" alt="" /></p>"
+       }
+       ],
+       on: [
+       {
+       @id: "_:b0",
+       @type: "oa:SpecificResource",
+       within: {
+       @id: "http://06fe2ff3-887d-41e6-a0f6-c31de4e4238b",
+       @type: "sc:Manifest"
+       },
+       selector: {
+       @id: "_:b1",
+       @type: "oa:Choice",
+       default: {
+       @id: "_:b3",
+       @type: "oa:FragmentSelector",
+       value: "xywh=7541,132,79,99"
+       },
+       item: {
+       @id: "_:b4",
+       @type: "oa:SvgSelector",
+       value: "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns="http://www.w3.org/2000/svg" d="M7552.55111,146.4531c7.32267,-8.30321 17.65247,-14.48633 28.03234,-14.47895v0v0c10.37986,0.00739 19.42247,5.7916 28.03234,14.47895c8.60987,8.68735 11.95642,21.92519 11.61137,34.95527c-0.34504,13.03008 -4.38167,25.85239 -11.61137,34.95527c-7.2297,9.10288 -17.65247,14.48633 -28.03234,14.47895c-10.37986,-0.00739 -20.71682,-5.40561 -28.03234,-14.47895c-7.31551,-9.07333 -11.60959,-21.82177 -11.61137,-34.95527c-0.00179,-13.1335 4.28871,-26.65205 11.61137,-34.95527z" data-paper-data="{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}" id="ellipse_1585e83b-bc02-4739-940f-5fcd65306343" fill-opacity="0.00001" fill="#00bfff" fill-rule="nonzero" stroke="#00bfff" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"/></svg>"
+       }
+       },
+       full: "http://c6c497a0-75da-48d4-b037-9af191795611"
+       }
+       ],
+       motivation: [
+       "oa:commenting"
+       ],
+       @context: "http://iiif.io/api/presentation/2/context.json"
+       },
+       {
+       @id: "http://35.177.224.176:8888/annotation/1592074852727",
+       @type: "oa:Annotation",
+       dcterms:created: "2020-06-13T19:00:52",
+       resource: [
+       {
+       @id: "_:b2",
+       @type: "dctypes:Text",
+       http://dev.llgc.org.uk/sas/full_text: "<img src="https://christykarpinski.com/images/derive/21-gasmeterdirt.jpg" alt="" />",
+       format: "text/html",
+       chars: "<p><img src="https://christykarpinski.com/images/derive/21-gasmeterdirt.jpg" alt="" /></p>"
+       }
+       ],
+       on: [
+       {
+       @id: "_:b0",
+       @type: "oa:SpecificResource",
+       within: {
+       @id: "http://06fe2ff3-887d-41e6-a0f6-c31de4e4238b",
+       @type: "sc:Manifest"
+       },
+       selector: {
+       @id: "_:b1",
+       @type: "oa:Choice",
+       default: {
+       @id: "_:b3",
+       @type: "oa:FragmentSelector",
+       value: "xywh=7459,128,78,129"
+       },
+       item: {
+       @id: "_:b4",
+       @type: "oa:SvgSelector",
+       value: "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns="http://www.w3.org/2000/svg" d="M7470.48099,147.18405c7.16378,-10.80772 17.26946,-18.85587 27.42411,-18.84626v0v0c10.15465,0.00962 19.00105,7.53853 27.42411,18.84626c8.42306,11.30773 11.69699,28.53852 11.35944,45.49888c-0.33756,16.96036 -4.2866,33.65029 -11.35944,45.49888c-7.07284,11.8486 -17.26946,18.85587 -27.42411,18.84626c-10.15465,-0.00962 -20.26732,-7.03612 -27.42411,-18.84626c-7.15679,-11.81014 -11.35769,-28.40391 -11.35944,-45.49888c-0.00175,-17.09498 4.19565,-34.69116 11.35944,-45.49888z" data-paper-data="{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}" id="ellipse_31d2a201-9acc-4b2a-82a0-0de6ee6e4ec5" fill-opacity="0.00001" fill="#00bfff" fill-rule="nonzero" stroke="#00bfff" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"/></svg>"
+       }
+       },
+       full: "http://c6c497a0-75da-48d4-b037-9af191795611"
+       }
+       ],
+       motivation: [
+       "oa:commenting"
+       ],
+       @context: "http://iiif.io/api/presentation/2/context.json"
+       },
+       {
+       @id: "http://35.177.224.176:8888/annotation/1592074879482",
+       @type: "oa:Annotation",
+       dcterms:created: "2020-06-13T19:01:19",
+       resource: [
+       {
+       @id: "_:b2",
+       @type: "dctypes:Text",
+       http://dev.llgc.org.uk/sas/full_text: "<img src="https://christykarpinski.com/images/derive/22-van.jpg" alt="" />",
+       format: "text/html",
+       chars: "<p><img src="https://christykarpinski.com/images/derive/22-van.jpg" alt="" /></p>"
+       }
+       ],
+       on: [
+       {
+       @id: "_:b0",
+       @type: "oa:SpecificResource",
+       within: {
+       @id: "http://06fe2ff3-887d-41e6-a0f6-c31de4e4238b",
+       @type: "sc:Manifest"
+       },
+       selector: {
+       @id: "_:b1",
+       @type: "oa:Choice",
+       default: {
+       @id: "_:b3",
+       @type: "oa:FragmentSelector",
+       value: "xywh=7134,1296,82,78"
+       },
+       item: {
+       @id: "_:b4",
+       @type: "oa:SvgSelector",
+       value: "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns="http://www.w3.org/2000/svg" d="M7145.65035,1306.96996c7.55724,-6.51427 18.21796,-11.36523 28.93034,-11.35944v0v0c10.71238,0.0058 20.04466,4.54379 28.93034,11.35944c8.88568,6.81565 12.33944,17.20138 11.98334,27.42411c-0.3561,10.22273 -4.52204,20.28246 -11.98334,27.42411c-7.4613,7.14165 -18.21796,11.36523 -28.93034,11.35944c-10.71238,-0.0058 -21.38048,-4.24097 -28.93034,-11.35944c-7.54986,-7.11847 -11.9815,-17.12024 -11.98334,-27.42411c-0.00185,-10.30387 4.4261,-20.90984 11.98334,-27.42411z" data-paper-data="{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}" id="ellipse_21f13639-5b33-4eb3-acae-927e31ff3d15" fill-opacity="0.00001" fill="#00bfff" fill-rule="nonzero" stroke="#00bfff" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"/></svg>"
+       }
+       },
+       full: "http://c6c497a0-75da-48d4-b037-9af191795611"
+       }
+       ],
+       motivation: [
+       "oa:commenting"
+       ],
+       @context: "http://iiif.io/api/presentation/2/context.json"
+       },
+       {
+       @id: "http://35.177.224.176:8888/annotation/1592074972897",
+       @type: "oa:Annotation",
+       dcterms:created: "2020-06-13T19:02:52",
+       resource: [
+       {
+       @id: "_:b2",
+       @type: "dctypes:Text",
+       http://dev.llgc.org.uk/sas/full_text: "<img src="https://christykarpinski.com/images/derive/23-truckwheel-9-14.jpg" alt="" />",
+       format: "text/html",
+       chars: "<p><img src="https://christykarpinski.com/images/derive/23-truckwheel-9-14.jpg" alt="" /></p>"
+       }
+       ],
+       on: [
+       {
+       @id: "_:b0",
+       @type: "oa:SpecificResource",
+       within: {
+       @id: "http://06fe2ff3-887d-41e6-a0f6-c31de4e4238b",
+       @type: "sc:Manifest"
+       },
+       selector: {
+       @id: "_:b1",
+       @type: "oa:Choice",
+       default: {
+       @id: "_:b3",
+       @type: "oa:FragmentSelector",
+       value: "xywh=7070,2318,122,104"
+       },
+       item: {
+       @id: "_:b4",
+       @type: "oa:SvgSelector",
+       value: "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns="http://www.w3.org/2000/svg" d="M7087.74563,2333.54083c11.28876,-8.71185 27.21339,-15.19927 43.21519,-15.19152v0v0c16.0018,0.00775 29.94205,6.07663 43.21519,15.19152c13.27314,9.11489 18.43224,23.00423 17.90032,36.67557c-0.53192,13.67134 -6.75487,27.1247 -17.90032,36.67557c-11.14545,9.55087 -27.21339,15.19927 -43.21519,15.19152c-16.0018,-0.00775 -31.93745,-5.67165 -43.21519,-15.19152c-11.27774,-9.51987 -17.89756,-22.89572 -17.90032,-36.67557c-0.00276,-13.77985 6.61155,-27.96372 17.90032,-36.67557z" data-paper-data="{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}" id="ellipse_1c1c5f21-e999-4814-bd83-b6386016f0d7" fill-opacity="0.00001" fill="#00bfff" fill-rule="nonzero" stroke="#00bfff" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"/></svg>"
+       }
+       },
+       full: "http://c6c497a0-75da-48d4-b037-9af191795611"
+       }
+       ],
+       motivation: [
+       "oa:commenting"
+       ],
+       @context: "http://iiif.io/api/presentation/2/context.json"
+       },
+       {
+       @id: "http://35.177.224.176:8888/annotation/1592074995595",
+       @type: "oa:Annotation",
+       dcterms:created: "2020-06-13T19:03:15",
+       dcterms:modified: "2020-06-13T19:03:56",
+       resource: [
+       {
+       @id: "_:b2",
+       @type: "dctypes:Text",
+       http://dev.llgc.org.uk/sas/full_text: "<img src="https://christykarpinski.com/images/derive/24-truck-wheel-9-37.jpg" alt="" width="600" height="338" />",
+       format: "text/html",
+       chars: "<p><img src="https://christykarpinski.com/images/derive/24-truck-wheel-9-37.jpg" alt="" width="600" height="338" /></p>"
+       }
+       ],
+       on: [
+       {
+       @id: "_:b0",
+       @type: "oa:SpecificResource",
+       within: {
+       @id: "http://06fe2ff3-887d-41e6-a0f6-c31de4e4238b",
+       @type: "sc:Manifest"
+       },
+       selector: {
+       @id: "_:b1",
+       @type: "oa:Choice",
+       default: {
+       @id: "_:b3",
+       @type: "oa:FragmentSelector",
+       value: "xywh=7059,2513,84,102"
+       },
+       item: {
+       @id: "_:b4",
+       @type: "oa:SvgSelector",
+       value: "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns="http://www.w3.org/2000/svg" d="M7070.86596,2528.07757c7.71928,-8.56505 18.60859,-14.94316 29.55066,-14.93554v0v0c10.94207,0.00762 20.47445,5.97424 29.55066,14.93554c9.07621,8.9613 12.60401,22.6166 12.24028,36.05758c-0.36373,13.44098 -4.619,26.66764 -12.24028,36.05758c-7.62128,9.38994 -18.60859,14.94316 -29.55066,14.93554c-10.94207,-0.00762 -21.83891,-5.57608 -29.55066,-14.93554c-7.71175,-9.35946 -12.2384,-22.50992 -12.24028,-36.05758c-0.00188,-13.54766 4.521,-27.49253 12.24028,-36.05758z" data-paper-data="{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;editable&quot;:true}" id="ellipse_3ea10a4d-b6df-4456-9254-575aad23d650" fill-opacity="0.00001" fill="#00bfff" fill-rule="nonzero" stroke="#00bfff" stroke-width="5.45455" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"/></svg>"
+       }
+       },
+       full: "http://c6c497a0-75da-48d4-b037-9af191795611"
+       }
+       ],
+       motivation: [
+       "oa:commenting"
+       ],
+       @context: "http://iiif.io/api/presentation/2/context.json"
+       },
+       {
+       @id: "http://35.177.224.176:8888/annotation/1592075055696",
+       @type: "oa:Annotation",
+       dcterms:created: "2020-06-13T19:04:15",
+       resource: [
+       {
+       @id: "_:b2",
+       @type: "dctypes:Text",
+       http://dev.llgc.org.uk/sas/full_text: "<img src="https://christykarpinski.com/images/derive/25-lights-9-56.jpg" alt="" />",
+       format: "text/html",
+       chars: "<p><img src="https://christykarpinski.com/images/derive/25-lights-9-56.jpg" alt="" /></p>"
+       }
+       ],
+       on: [
+       {
+       @id: "_:b0",
+       @type: "oa:SpecificResource",
+       within: {
+       @id: "http://06fe2ff3-887d-41e6-a0f6-c31de4e4238b",
+       @type: "sc:Manifest"
+       },
+       selector: {
+       @id: "_:b1",
+       @type: "oa:Choice",
+       default: {
+       @id: "_:b3",
+       @type: "oa:FragmentSelector",
+       value: "xywh=7197,2514,90,91"
+       },
+       item: {
+       @id: "_:b4",
+       @type: "oa:SvgSelector",
+       value: "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns="http://www.w3.org/2000/svg" d="M7210.51529,2527.22962c8.30342,-7.64003 20.01674,-13.32931 31.78683,-13.32251v0v0c11.77008,0.0068 22.0238,5.32902 31.78683,13.32251c9.76303,7.99349 13.55779,20.17402 13.16654,32.16339c-0.39125,11.98936 -4.96853,23.78755 -13.16654,32.16339c-8.19801,8.37583 -20.01674,13.32931 -31.78683,13.32251c-11.77008,-0.0068 -23.49152,-4.97387 -31.78683,-13.32251c-8.29531,-8.34864 -13.16451,-20.07886 -13.16654,-32.16339c-0.00203,-12.08452 4.86311,-24.52335 13.16654,-32.16339z" data-paper-data="{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}" id="ellipse_da9a50ff-7bd9-47d9-a6d7-bfa502bd7877" fill-opacity="0.00001" fill="#00bfff" fill-rule="nonzero" stroke="#00bfff" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"/></svg>"
+       }
+       },
+       full: "http://c6c497a0-75da-48d4-b037-9af191795611"
+       }
+       ],
+       motivation: [
+       "oa:commenting"
+       ],
+       @context: "http://iiif.io/api/presentation/2/context.json"
+       },
+       {
+       @id: "http://35.177.224.176:8888/annotation/1592075096161",
+       @type: "oa:Annotation",
+       dcterms:created: "2020-06-13T19:04:56",
+       resource: [
+       {
+       @id: "_:b2",
+       @type: "dctypes:Text",
+       http://dev.llgc.org.uk/sas/full_text: "<img src="https://christykarpinski.com/images/derive/27-backtruck.jpg" alt="" />",
+       format: "text/html",
+       chars: "<p><img src="https://christykarpinski.com/images/derive/27-backtruck.jpg" alt="" /></p>"
+       }
+       ],
+       on: [
+       {
+       @id: "_:b0",
+       @type: "oa:SpecificResource",
+       within: {
+       @id: "http://06fe2ff3-887d-41e6-a0f6-c31de4e4238b",
+       @type: "sc:Manifest"
+       },
+       selector: {
+       @id: "_:b1",
+       @type: "oa:Choice",
+       default: {
+       @id: "_:b3",
+       @type: "oa:FragmentSelector",
+       value: "xywh=6187,2499,113,88"
+       },
+       item: {
+       @id: "_:b4",
+       @type: "oa:SvgSelector",
+       value: "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns="http://www.w3.org/2000/svg" d="M6204.04973,2511.65985c10.46746,-7.37169 25.2335,-12.86114 40.0711,-12.85459v0v0c14.8376,0.00656 27.76364,5.14185 40.0711,12.85459c12.30746,7.71273 17.09122,19.46545 16.59799,31.03371c-0.49322,11.56826 -6.26343,22.95206 -16.59799,31.03371c-10.33457,8.08165 -25.2335,12.86114 -40.0711,12.85459c-14.8376,-0.00656 -29.61387,-4.79917 -40.0711,-12.85459c-10.45723,-8.05542 -16.59544,-19.37363 -16.59799,-31.03371c-0.00256,-11.66008 6.13054,-23.66202 16.59799,-31.03371z" data-paper-data="{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}" id="ellipse_bbf94b52-a6ab-42d0-965b-11b7e6005b38" fill-opacity="0.00001" fill="#00bfff" fill-rule="nonzero" stroke="#00bfff" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"/></svg>"
+       }
+       },
+       full: "http://c6c497a0-75da-48d4-b037-9af191795611"
+       }
+       ],
+       motivation: [
+       "oa:commenting"
+       ],
+       @context: "http://iiif.io/api/presentation/2/context.json"
+       },
+       {
+       @id: "http://35.177.224.176:8888/annotation/1592075208934",
+       @type: "oa:Annotation",
+       dcterms:created: "2020-06-13T19:06:48",
+       resource: [
+       {
+       @id: "_:b2",
+       @type: "dctypes:Text",
+       http://dev.llgc.org.uk/sas/full_text: "<img src="https://christykarpinski.com/images/derive/29-bigcar.jpg" alt="" />",
+       format: "text/html",
+       chars: "<p><img src="https://christykarpinski.com/images/derive/29-bigcar.jpg" alt="" /></p>"
+       }
+       ],
+       on: [
+       {
+       @id: "_:b0",
+       @type: "oa:SpecificResource",
+       within: {
+       @id: "http://06fe2ff3-887d-41e6-a0f6-c31de4e4238b",
+       @type: "sc:Manifest"
+       },
+       selector: {
+       @id: "_:b1",
+       @type: "oa:Choice",
+       default: {
+       @id: "_:b4",
+       @type: "oa:FragmentSelector",
+       value: "xywh=9309,2496,106,111"
+       },
+       item: {
+       @id: "_:b3",
+       @type: "oa:SvgSelector",
+       value: "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns="http://www.w3.org/2000/svg" d="M9324.397,2511.983c9.81753,-9.3087 23.66675,-16.24057 37.58308,-16.23229v0v0c13.91633,0.00828 26.03979,6.49294 37.58308,16.23229c11.54329,9.73935 16.03002,24.58025 15.56742,39.18822c-0.4626,14.60797 -5.87453,28.98301 -15.56742,39.18822c-9.69289,10.20521 -23.66675,16.24057 -37.58308,16.23229c-13.91633,-0.00828 -27.77514,-6.06021 -37.58308,-16.23229c-9.80794,-10.17208 -15.56502,-24.4643 -15.56742,-39.18822c-0.0024,-14.72392 5.74989,-29.87952 15.56742,-39.18822z" data-paper-data="{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}" id="ellipse_865da391-489a-4915-85b9-2c3212ed2a18" fill-opacity="0.00001" fill="#00bfff" fill-rule="nonzero" stroke="#00bfff" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"/></svg>"
+       }
+       },
+       full: "http://c6c497a0-75da-48d4-b037-9af191795611"
+       }
+       ],
+       motivation: [
+       "oa:commenting"
+       ],
+       @context: "http://iiif.io/api/presentation/2/context.json"
+       },
+       {
+       @id: "http://35.177.224.176:8888/annotation/1592075475780",
+       @type: "oa:Annotation",
+       dcterms:created: "2020-06-13T19:11:15",
+       resource: [
+       {
+       @id: "_:b2",
+       @type: "dctypes:Text",
+       http://dev.llgc.org.uk/sas/full_text: "<img src="https://christykarpinski.com/images/derive/35-redfence2.jpg" alt="" />",
+       format: "text/html",
+       chars: "<p><img src="https://christykarpinski.com/images/derive/35-redfence2.jpg" alt="" /></p>"
+       }
+       ],
+       on: [
+       {
+       @id: "_:b0",
+       @type: "oa:SpecificResource",
+       within: {
+       @id: "http://06fe2ff3-887d-41e6-a0f6-c31de4e4238b",
+       @type: "sc:Manifest"
+       },
+       selector: {
+       @id: "_:b1",
+       @type: "oa:Choice",
+       default: {
+       @id: "_:b3",
+       @type: "oa:FragmentSelector",
+       value: "xywh=10243,868,106,93"
+       },
+       item: {
+       @id: "_:b4",
+       @type: "oa:SvgSelector",
+       value: "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns="http://www.w3.org/2000/svg" d="M10258.30809,881.76063c9.81753,-7.78357 23.66675,-13.57973 37.58308,-13.57281v0v0c13.91633,0.00692 26.03979,5.42914 37.58308,13.57281c11.54329,8.14367 16.03002,20.55305 15.56742,32.76766c-0.4626,12.21462 -5.87453,24.23447 -15.56742,32.76766c-9.69289,8.5332 -23.66675,13.57973 -37.58308,13.57281c-13.91633,-0.00692 -27.77514,-5.06731 -37.58308,-13.57281c-9.80794,-8.5055 -15.56502,-20.4561 -15.56742,-32.76766c-0.0024,-12.31156 5.74989,-24.98409 15.56742,-32.76766z" data-paper-data="{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}" id="ellipse_e4ad5940-d2b6-48c3-822c-c93abc288dd4" fill-opacity="0.00001" fill="#00bfff" fill-rule="nonzero" stroke="#00bfff" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"/></svg>"
+       }
+       },
+       full: "http://c6c497a0-75da-48d4-b037-9af191795611"
+       }
+       ],
+       motivation: [
+       "oa:commenting"
+       ],
+       @context: "http://iiif.io/api/presentation/2/context.json"
+       }
+       ]
+ }
